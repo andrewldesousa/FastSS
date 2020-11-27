@@ -1,0 +1,26 @@
+Role: Automation Test Developer. 
+
+Questions asked:
+
+1: Basics of Linux, few tricky commands, what are inodes, setting up networking etc etc. 
+
+2: Python: 
+
+    Given a file, write a function which accepts a version 
+    number, date and returns pass or fail. 
+    
+     EDIT:
+     the file structure is basically a test result log file which contains lines of information.
+     Each line has a version and date, tests run and results. 
+     I was supposed to return results which are pass fail based on the version number and date given.:)
+   
+
+    Reverse a sentence without using slicing.
+
+    List comprehension basics. 
+
+What I did right: I wrote enough code solving pythonic interview problems, and I was comfortable writing the code in the interview. 
+
+what I did wrong: Focused too much on interview type problems, like Coin change, linked list etc etc. Should have also focused on some real use cases of python. For example, how to test a code with different inputs, how to parse few lines from a file, how to schedule a cron job etc etc. 
+
+TLDR; Don't just bust your head trying to solve interview challenges from cracking the coding interview. Also learn to make some real world programs.

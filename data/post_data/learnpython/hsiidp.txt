@@ -1,0 +1,3 @@
+I'm self-taught in Python and am able to write programs that work, but I still don't feel like I know what I'm doing.  Where can I learn about program structure/design?
+
+I usually just start coding and one thing leads to another and pretty soon, I'm done.  But I can't shake the feeling that a professional programmer would look at my code and laugh at how haphazard and inefficient it is.  Any pointers or suggestions?  Or are we just supposed to figure it out for ourselves?

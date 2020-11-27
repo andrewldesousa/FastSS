@@ -1,0 +1,5 @@
+So I just (kind-of) finished reading Automate The Boring Stuff With Python, and for the past month I've felt like a big-brained super-hero automating myself out of a job (Data Analyst). 
+
+The problem is, I feel I missing something along the way. I don't understand the proper way to use functions, what a class is, why people have multiple files in a program, how/why people use GitHub...probably some other things I haven't discovered yet.
+
+They all seem to be related to organization? Is there a "How To Structure Your Python Stuff With Python" book?

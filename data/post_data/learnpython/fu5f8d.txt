@@ -1,0 +1,15 @@
+I was never really good at math, in fact i hate math. Ironically, I really love computers, and most people always say programming computers requires loads of math skills, and tbh i think thats kind of a yes and no type of thing. 
+
+I dropped out of high school and always failed math classes but after getting my GED and just wanting to find a career and being obsessed with computers, I decided i might as well get good at that, but learning to code was so hard, it made no since to me at all, than i just kept trying to learn python. 
+
+ive been trying to learn python for literally years, i work fulltime and am a full time college student and im just now becoming mediocre at python, but im pretty proud lol. 
+
+what I noticed though is as i learned how python works, how the step by step instructions work, how the logic works, it actually helped me become better at doing math, and in turn doing the math helped me get better at python, im just talking college algebra though, but thats pretty amazing thinking i went from failing high school math, and than passing college level math courses, I didnt really even understand what variables were, like in algebra, assigning values to letters and symbols? wtf
+
+Than i learned how python works and something just clicked, I was actually INTERESTED, in computer code, so learning concepts for it, no matter how hard (because i am kinda dumb) was worth it to me because i wanted to be good with computers lol. The programming concepts and math concepts for school went hand in hand, I mean I even program simple scripts to do math equations for me, because what is a mathematical formula? Its (to me, a simple guy really) a step by step instruction on how to solve an equation. This is really prevalent in algebra, im not familiar with other types of mathematics though, but think of the formula step by step, how you do the arithmetic, its easy to make python do exactly how your brain does it, step by step, line by line. 
+
+what im trying to figure out though, is what mathematical concepts should i study more of to be a better coder? In college i was forced to start out at a basic algebra level cause i was so bad at math, but as i learned to code i went from basic algebra, to a technical math class that im actually passing, and I have one remaining math class that im required to take to get my dual degrees, what kind of math should i study for my last class? I actually have a broad choice, but i thought of taking college level algebra,
+
+I assumed college algebra would probably help me the best as a programmer, I also plan to take python courses as my programming language of choice for my cyber security degree! (we have a choice of like 20 programming languages, after you take computational thinking first.) 
+
+what mathematical concepts really helped you understand python or code in general?

@@ -1,0 +1,18 @@
+Hi Reddit,
+
+Just wanted to share a recently updated collection of Jupyter notebooks I reference while learning about and working with data.
+
+https://github.com/donnemartin/data-science-ipython-notebooks
+
+Topics include:
+
+* Python language essentials geared towards data processing
+* Python data stack
+* Machine learning
+* Deep learning
+* Big data processing with Spark, MapReduce, and AWS
+* Statistical inference
+* Business analyses (ie churn modeling)
+* Various command lines
+
+-Donne

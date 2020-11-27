@@ -1,0 +1,35 @@
+Hello fellow learners of Python, I have a sort of embarrassing question (which is maybe not Python-specific, but w/e, I've been learning Python).
+
+When I see other people's Git repos, they're filled with stuff like: [setup.py](https://setup.py), requirements.txt, \_\_init\_\_.py, pycache, or separate folders for separate items like "utils" or "templates".
+
+Is there some sort of standard convention to follow when it comes to splitting up my code files, what to call folders, what to call certain files? Like, I have several working programs at this point, but I don't think I'm following (or even aware of) how my Git repository should be constructed.
+
+I also don't really know what a lot of these items are for. All that to say, I'm pretty comfortable actually using Git and writing code, but at this point I think I am embarrassingly naive about how I should organize my code, name files/folders, and what certain (seemingly) mandatory files I need in my repo such as \_\_init\_\_.py or [setup.py](https://setup.py).
+
+Thanks for any pointers, links, etc and sorry for the silly question.
+
+\---
+
+Edit: The responses here have been so amazingly helpful. Just compiling a few of the especially helpful links from below. I've got a lot of reading to do. You guys are the best, thank you so so much for all the answers and discussion. When I don't know what I don't know, it's hard to ask questions about the unknown (if that makes sense). So a lot of this is just brand new stuff for me to nibble on.
+
+&#x200B;
+
+Creates projects from templates w/ Cookiecutter:
+
+[https://cookiecutter.readthedocs.io/en/1.7.2/](https://cookiecutter.readthedocs.io/en/1.7.2/)
+
+Hot to use Git:
+
+[https://www.git-scm.com/book/en/v2](https://www.git-scm.com/book/en/v2)
+
+git.ignore with basically everything you'd ever want/need to ignore from a Github repo
+
+[https://github.com/github/gitignore/blob/master/Python.gitignore](https://github.com/github/gitignore/blob/master/Python.gitignore)
+
+Hitchhiker's Guide to Python:
+
+[https://docs.python-guide.org/writing/structure/](https://docs.python-guide.org/writing/structure/)
+
+Imports, Modules and Packages:
+
+[https://docs.python.org/3/reference/import.html#regular-packages](https://docs.python.org/3/reference/import.html#regular-packages)

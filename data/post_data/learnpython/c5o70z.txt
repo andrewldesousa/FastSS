@@ -1,0 +1,61 @@
+I'm lurking the sub for some time already. I believe managed to help some of you already so you may know me.
+
+&#x200B;
+
+Now I want to help some more...
+
+&#x200B;
+
+One thing I noticed is that the great part of you just read books, do courses, read more books, watch youtube videos etc. And you're struggling with using the concepts you've learned (not really learned actually) in a real life. Here is what I propose.
+
+## Don't read books. Do the opposite.
+
+Yes, the opposite! Get an idea for a little more than a simple project and do it!
+
+The project cannot be too simple, because you would be lying to yourself that you're proficient. What you need is a project that **you are not sure you can make**. That's a challenge. But there's something more to make it work.
+
+## Pick the topic you're passionate about
+
+To achieve what suppose to be "impossible" at the beginning, you need something the scientists call "the flow".
+
+If you play video games, you know what I'm talking about. It is a state of hyper-productivity, hyper-focus - it's when the magic happens.
+
+Prepare a distraction-free environment. No kids running around. No TV. No Facebook. No smartphone. **Just you, your laptop, headphones, and instrumental music.** Once you get into the flow, stay there as long as you can. Ask your spouse to not interrupt.
+
+What can help you is to pick the topic for the project that you're passionate about. It is gonna be a little bit easier for you to start, and maintain the excitement.
+
+# "I don't have the motivation. I don't have time."
+
+Motivation's garbage. Don't count on you being motivated. Just don't. It's another excuse to not produce any results. Ass in the chair. Headphones on the head, no distractions. Just you and the project. Everyday. No excuses. If you can't do it, resign right now, don't waste your time. You can't be great without the pain of forcing yourself.
+
+## "I just can't into programming yet..."
+
+Do the project first, and learn as you go. Do you need loops? Learn, and use them immediately. Need functions? Learn and use, and use them immediately. Do you need classes? You know what to do. Trust me it works. Especially with python.
+
+## "How the f*** you know it works?"
+
+I am an example. I'm now the Technical Lead for Atlanta based startup. I did in 3 years after university. **I have never read a book about python in my entire life**.
+
+All I did was picking up the project, developing it, learning as I go, showing to the people and fighting with fire on production. Get the feedback ASAP.
+
+Last 2 jobs I did get without even showing my résumé to the HR. I just showed them my side projects.
+
+At the beginning I started with a 2D game based on \`pygame\` library in python 2.7. Do you think I knew how to do it? Nope. I spend 1 week on something that today could take me 1 or 2 hours. [Check this out.](https://www.youtube.com/watch?v=t7cDpiCqZwY)
+
+Then I've created my first Django projects. I learned how to design a REST API. After that I've met android developer and we've made 3 mobile apps, one of them having 500 users simultaneously. I had to make it work to not let the users down. That's the pressure you want to get! **You know the best practices because you just had used them. You didn't have any other choice**, but a massive failiure.
+
+# Show your project, get the feedback, feel the pressure.
+
+In this very moment, I mentor 2 people - 20-year-old student and 27-year-old firefighter who wants to change his current job.
+
+They picked up the projects, I do the code reviews for them. We have a knowledge learning session once per 2 weeks. They get the feedback, they learn and they leveraging my experience. I advised them to not read "Learning Python" book, but just start working on a project, and open this book only when it's necessary to move forward.
+
+&#x200B;
+
+Pick the project, good luck, have fun.
+
+&#x200B;
+
+# ** Edit
+
+After reading the comments I think I went a little bit too "click-baity". I'm sorry for that. Clarification: Of course, read the books **to solve the problems you encounter during the side project**. Like the book I mentioned "Learning Python" - it's a great book for beginners but as a reference book (like I used it) not as a cover-to-cover novel to read. Without putting the things you read into action in a real project, you will forget soon.

@@ -1,0 +1,6 @@
+I noticed my self searching the python docs very often and did a quick search on the bangs ( -> ! is a bang) which DDG offers. 
+
+If you want to search anything in particular just type: 
+!py3k (search term).
+
+Hope that this helps you guys. Happy Coding :)

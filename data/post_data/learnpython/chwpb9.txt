@@ -1,0 +1,40 @@
+I have zero programming experience and 30 days ago I picked up Automate the Boring stuff.  I am subbed to over 700 subs and I hop between accounts a lot. I decided to write something that would help me subscribe to all my subs every time I pick up a new account. I read here that PRAW is the way to mess around with reddit.
+
+I know this has probably been made here a billion times, but its the first thing I've ever created by myself and I am so incredibly happy.
+
+Thank you to everyone on this sub for all the encouragement, never posted before but I lurk heavy.
+
+Please let me know if there is anyway I can improve/cleanup.
+
+import praw  
+import openpyxl  
+import os  
+
+
+\# open Reddit instance: Log in  
+`reddit = praw.Reddit(client_id='youridhere',`  
+`client_secret='secretkeyhere',`  
+`user_agent='agentname',`  
+`username='username',`  
+`password='redditpassword')`  
+\# Change directory to where your file is located  
+`os.chdir('/Users/path')`  
+\# Confirm you're in the right directory  
+`os.getcwd()`  
+\# Open the excel file where subs are stored  
+`workbook = openpyxl.load_workbook('allsubs.xlsx')`  
+\# Specify sheet that data is on  
+`sheet = workbook['Sheet1']`  
+\# Read data in each cell one by one  
+\# Range of Cells that contain the subs  
+`for subs in sheet['A1':'A732']:`  
+  `for cell in subs:`  
+\# Subscribe to each 'cell value' which is a sub's name  
+\# Try/Except: For subs that are invite only or are currently quarantined  
+\# Keep going if an exception is raised.  
+ `try:`  
+`print(reddit.subreddit(cell.value).subscribe())`  
+`print('You have subscribed to: ' + cell.value)`  
+ `except Exception:`  
+ `pass`  
+`print("\nAll done")`

@@ -1,0 +1,6 @@
+Started on the 1st of June, after 2 weeks of "from zero to hero" video course I decided to try something "heroic".  Asked my wife yesterday "what can I do to simplify your work?". She is a translator and one of the client has most of works in PPT.  For some reason PPT word count is never accurate, well at least for invoicing purpose.  
+So they agree to copy and paste contents in word and count.
+
+I just write a script that read all the text contents in PPT and save them in a text file.  So she can easily count the words there.
+
+Although it took me almost 4 hours for only 25 lines of code, but I am still happy that I can apply what I've learned so far.

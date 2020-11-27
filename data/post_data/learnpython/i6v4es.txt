@@ -1,0 +1,11 @@
+I'm a few weeks into my journey learning Python. It's my first programming language, and I'm excited. Well... excited and terrified. 
+
+Excited by the adventure. But terrified by the amount of work that awaits. 
+
+It feels like I'm setting out to climb Mount Everest. And with every day of climbing, I get slightly further on the journey. But I also get a clearer view of the mountain ahead, and a better awareness of just how much I don't know.
+
+Anyway, I suspect that since I don't have a background in CS, it may help to step back from "the mountain climb" of Python for a bit. To learn some fundamentals of Computer Science or "computational thinking". 
+
+I recently read and enjoyed "Understanding the Digital World" by Brian W. Kernighan. It's an overview of computers and the internet for someone without a background in CS.
+
+Can anyone recommend other books like this, which may be of assistance on my climb? Thanks!

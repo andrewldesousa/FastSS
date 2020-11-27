@@ -1,0 +1,30 @@
+Hi Reddit,
+
+I've recently overhauled the interactive Python coding challenges repo, now with more than double the original content:
+
+https://github.com/donnemartin/interactive-coding-challenges
+
+Included are unit tested reference implementations of various data structures and algorithms.
+
+Each challenge has one or more reference solutions that are:
+
+* Fully functional
+* Unit tested
+* Easy-to-understand
+
+Notebooks also detail:
+
+* Constraints
+* Test cases
+* Algorithms
+* Big-O time and space complexities
+
+Anki flashcards are also available.  Great for use while on-the-go!
+
+Bonus: If you're looking to learn/practice system design or object oriented exercises, check out the sister repo, The System Design Primer:
+
+https://github.com/donnemartin/system-design-primer
+
+Hope this helps!
+
+-Donne

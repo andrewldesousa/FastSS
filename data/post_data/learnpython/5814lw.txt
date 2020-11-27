@@ -1,0 +1,9 @@
+I decided it would be fun to give my latest book away for free for 48 hours. So starting today, you can get **Python 201: Intermediate Python** free through [Gumroad](https://gumroad.com/l/py201#) or [Leanpub](http://leanpub.com/python201/c/201free). 
+
+If you go with Gumroad, then you will need to use the following offer code: **201free**. Note that if you want to receive updates to the book, you will want to create an account and add the book to your library. 
+
+I currently support the following digital formats: PDF, epub and mobi
+
+Note: Repost from [/r/Python!](https://www.reddit.com/r/Python/comments/57xaud/python_201_book_is_free_for_48_hours/)
+
+You might also want to check out my blog which has lots of fun Python tutorials and links to my other books: http://www.blog.pythonlibrary.org/

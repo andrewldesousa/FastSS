@@ -1,0 +1,12 @@
+So I just finished my python script to monitor the price of my target gadget this holiday.  It’s going to be heavily discounted soon but it will go to the fastest finger. 
+
+I’ve written a python script with BeautifulSoup. I’ve also set email and SMS alerts in the script 😂😂
+
+Was just wondering if there’s any other person doing this for Black Friday and Fastest Finger deals.
+
+
+
+Check it out on https://github.com/Olunusib/black-friday
+
+
+Update: Long overdue but just thought I should add that I got the phone.

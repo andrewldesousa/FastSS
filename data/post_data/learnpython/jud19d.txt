@@ -1,0 +1,9 @@
+Hi all,
+
+Today I joined my first coding competition, using Python (I know Python isn't recommended, but it's my dominant language). 3 months after finishing the full course of Python and doing projects, school started. I recently started my freshmen year in high school and that was when my problems started.
+
+Because I didn't have a lot of time to code or complete projects, my unused knowledge in Python died.  I recently started doing Hackerrank due to the positive reviews everyone gives, but I was immediately overwhelmed. Though the questions started out easy, it immediately curved to a point where I didn't understand. Because I didn't want to give up on Hackerrank, I took some time off it to learn Algorithms and Data  Structures from [geeksforgeeks.org](https://geeksforgeeks.org) which had massive amounts of courses. Once again, I was left with no direction and a sense of being lost in a desert.
+
+Recently, I joined a computer science club in school. I didn't think too much about  the club and just went in. I soon signed up for a coding competition that took place today. We win or do anything notable, but it was all I needed. The questions in this competition started from easy (printing out "Hello World", concatenation, etc.), to more advanced things. For the first time in around 3 months, I was able to solve problems that were not too hard, but not too easy, and pushed me outside my comfort zone. I finally have the same feeling of direction and joy of coding as when I printed "Hello World".  I was finally able to apply things that I learned into coding.
+
+I'm no expert, and I don't want to act like one, but for someone who was struggling to progress in their journey in coding, I highly suggest you join a competition or club if you had the same problem as me. I have learned more from 4 hours of straight coding than 1 month of "learning" algorithms.

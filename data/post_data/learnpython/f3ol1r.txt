@@ -1,0 +1,7 @@
+Recently, there have been a rumor; a man deletes his friend's chrome history after his friend dead.
+
+So, I decided to make a script that will be my buddy. My buddy will clean my chrome history and private files which I added their paths before. Being a very beginner on python, more or less, I think I achieved this project. You add the directories and  set the time. On every startup, you will see your date on the screen for 10 secs. When the time comes and if you haven't set extra time on the program, it will delete your browser history and the paths you added. Also you can hide this paths too using windows superhiding method.
+
+Here is the link: [https://github.com/hasanaslan7/loyalbuddy](https://github.com/hasanaslan7/loyalbuddy)
+
+PS:  As I said I consider myself as a beginner. If you have any opinions and arrangements on my code, I would be glad to hear them. Also, I couldn't convert this to an exe file. When I did it, I will share it on the same link.

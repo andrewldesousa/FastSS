@@ -1,0 +1,11 @@
+I used to have admin rights (data analyst) at my previous employer. 
+
+After starting my new role, as a sales analytics manager, I can’t even get python (or even a database application) installed...
+
+Other than personal projects, any other creative ways to continue using python?
+
+***Edit: WOW! Thanks for all the feedback. I’ve addressed it to my manager and we’ve agreed to request it again after I propose a proper justification that backs up my needs to download Python. If it gets denied by IT again, my manager might go straight to the CEO but I don’t know if that’ll be necessary. Until then, I’ll have to familiarize myself with VBA again!***
+
+Suggestions to consider: 
+- VM
+- Anaconda

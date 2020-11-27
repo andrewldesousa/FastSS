@@ -1,0 +1,7 @@
+I started learning python, after a failed aproach of learning C++.I have been learning python for about 3 months .I have learnt  about OOP,closures ,decorators and a lot of other things.For the first time I feel like I am getting somewhere with programming.I started learning django but realized that to build a decent frontend I will need javascript.I am currently learning javascript and then I will start learning react.
+
+I am not saying that I am "intermediate" programmer, I still consider myself a begginer.But I am good enough to build a project on my own and to solve a simple(6 kyu) codewars kata.
+
+Just wanted to thank you!
+
+also,excuse my terrible english.

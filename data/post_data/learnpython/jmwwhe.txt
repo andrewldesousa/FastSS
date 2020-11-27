@@ -1,0 +1,17 @@
+Hey everyone, we all are always asking about some good projects to get into while we learn to write Python (myself included). So, I figured I would share my latest idea (haven't started yet), as well as some others that I've done in the past. Let's have a discussion about some of the other things you've each done!
+
+My latest idea is as follows. Backblaze, a cloud backup solution company (no affiliation), for about 7 years has been publishing data on hard drive failure rates from their datacenter ([here](https://www.backblaze.com/b2/hard-drive-test-data.html)). What's interesting is that in addition to a blog post about the data, they also provide the raw data, in CSV format that their software generates. You can read more at the link, but basically they have a row for each hard drive every day, along with the drvie details, whether the drive has failed or not, and SMART stats for each drive. I'm thinking it would be cool to practice pandas and take this data and do some plotting and such, and maaaybe try some machine learning stuff to see if we can predict if certain SMART attributes are better predictors of failure than others. There have been studies on this kind of thing before, but it could be an opportunity to learn more about some nerdy stuff like hard drive failure rates, pandas, matplotlib, and SMART stats.
+
+Some of the other projects I've done are:
+
+\- [a very small program to search the graphics card prices on newegg](https://github.com/mokrunka/neweggparsing/blob/master/practice.py)
+
+\- [another small program to plot data from the federal election commission on donations per candidate per state (need to download your own raw data)](https://github.com/mokrunka/electiondata/blob/master/newelectiondonations.py#L5)
+
+\- [a fun little tool to extract the temperature data reported by my raspberry pi running pi-hole (network level ad blocker)](https://github.com/mokrunka/FileMgmt/blob/master/temp_tracking.py)
+
+\- [a friend of mine has a problem where he had a directory filled with millions of small files. this will delete them (use at own risk of course, always backup your data, etc.)](https://github.com/mokrunka/FileMgmt/blob/master/FileMgmt.py)
+
+\- [if you're interested in data, here's another github link of a bunch of big datasets](https://github.com/awesomedata/awesome-public-datasets)
+
+E: wow friends! This got a lot more traction than I thought. Thanks for all the awards and let’s keep the suggestions coming!

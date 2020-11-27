@@ -1,0 +1,20 @@
+EDIT: Thanks for checking out the stream. If you missed it, it's at https://www.youtube.com/watch?v=y2W1PiHctnE
+
+Hello, Reddit! I'll be going over a short Python game written by a beginner and showing how I'd refactor the code so that it does the same thing but with shorter, more readable code.
+
+I'll be streaming tomorrow evening, Wednesday 4/17/2019 at 7pm Pacific at https://www.twitch.tv/alsweigart/ and answering questions folks post to the chat room. If you can't make it, this stream will be recorded and later posted to [YouTube](https://www.youtube.com/user/Albert10110).
+
+Some of the themes I'll cover are:
+
+* How to avoid "Choose Your Own Adventure" style code, which depends on flow control instead of data structures.
+* How to remove duplicate code (and why you'd want to).
+* When you should replace multiple variables with a list or dictionary.
+* How you can save yourself effort by using the Python standard library.
+
+If you have programs you'd like to see me refactor, feel free to PM me or post as a comment here your pastebin.com link. To make sure the audience can follow along and it's easy to stream, I'd like to ask that they:
+
+* Generally be between 10 and 300 lines of code in a single file.
+* Only use the Python standard library and not require additional modules.
+* Not require additional files, like files that need to be on your computer, or account info or special permissions or environment setups.
+
+See you then!

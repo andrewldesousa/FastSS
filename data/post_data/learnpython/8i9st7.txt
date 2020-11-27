@@ -1,0 +1,3 @@
+[Github repository](https://github.com/crlsmnzs/InternetSpeedNagger)
+
+Inspired by a post I saw on /r/ProgrammerHumor ages ago. Critique my code as I'd be very happy to optimize it and make it more legible.

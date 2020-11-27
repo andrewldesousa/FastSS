@@ -1,0 +1,5 @@
+I'm trying to learn how to make a python programs by looking through existing programs in a similar premise as what I'd like to achieve (learning by looking at examples). But one thing I'm having difficulty with is finding out how these github repos are organized.
+
+So far ([in the repo I have I'm viewing](https://github.com/qtile/qtile)) I know that `bin` usually means terminal/command-line commands, `docs` is typically documentation (as one might expect), `test` is self explanatory, but some things I don't know is `rpm` and `stubs`, amongst others.
+
+Is there a resource to learn how python/git programs are organized? And what to expect when looking through repos?

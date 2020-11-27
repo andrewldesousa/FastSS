@@ -6,9 +6,25 @@ reddit = praw.Reddit(
     user_agent='linux:reddit4nlp:v0 (by /u/lilinformatiker)',
 )
 
-for submission in reddit.subreddit("learnpython").hot(limit=10):
-    print(submission.title)
+
+
+def retrieve_top_posts_from_subreddits(subreddits, limit=300):
+    for subreddit in subreddits:
+        for submission in reddit.subreddit(subreddit).top(limit=limit):
+            f = open(f'data/post_data/{subreddit}/{submission.id}.txt', "x")
+
+            if not submission.selftext:
+                print('no selftext')
+                
+            f.write(submission.selftext)
+            f.close()
+
+    
 
 
 if __name__ == "__main__":
-    print(reddit.read_only)
+    subreddits = [
+        'learnpython',
+    ]
+
+    retrieve_top_posts_from_subreddits(subreddits)

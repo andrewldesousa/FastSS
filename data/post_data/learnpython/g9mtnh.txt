@@ -1,0 +1,4 @@
+So I started to structure my .py files in a tree and planned to fix the git-connection to back some of them up today. By accident I ended up deleting the .py file of my first fully "personal" project that I just finished. It's gone. I tried several recovery programs and found the file but it's super corrupt, that kinda sucks.  
+The code calculated material needed for exterior wall panel, where to cut every single plank, reusing stumps considering placement of studs etc. I highly recommend this type of project as a beginner project as it easily can be extended and improved with new features. But, eventually it turned out the biggest lesson here was to **set up the backup environment first.**
+
+Anyways, project was finished and the hours put in goes into experience bag. :)

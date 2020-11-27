@@ -1,0 +1,7 @@
+Most online python interpreters suck because they try to be complete IDEs with bloated designs and none of them work on mobile.
+
+I spent the coronavirus lockdown time building a simple python interpreter that doesn't suck, has a simple design and works on mobile. It also has a nifty dark mode feature.
+
+I would appreciate any feedback on the tool - in terms of UI/UX, security, packages, feature requests and I would be happy to answer any questions regarding how I built it.
+
+[https://www.programiz.com/python-programming/online-compiler/](https://www.programiz.com/python-programming/online-compiler/)

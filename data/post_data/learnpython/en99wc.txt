@@ -1,0 +1,13 @@
+I had been fiddling with the language for a bit until a reorganization recently changed my role.
+
+I went from “jack  of all trades” data engineer/ support guy / DBA to site reliability engineer. My new boss tasked me to automate all the boring stuff I was in charge of so I could focus on my new engineering duties.
+
+In over a month, my code has gotten more succinct and effective. Things “click” now as I see real world applications for it. 
+
+All I want to say is don’t despair. Yeah things can  be tough and confusing but it helped me to apply the language in my job. Automate the boring stuff, people!!
+
+Hang in there. You got this.
+
+PS: I am still a newbie, no doubt.
+
+EDIT: a word.

@@ -1,0 +1,11 @@
+I have been learning Python for over two months now, and it has been a very fun journey! I got to learn and experiment by copying other people's codes to "re-create" their own project, but it is not as fulfilling as my own personal project. I am so proud of my progress that I wanted to share it to this subreddit! (note:  I am new to Reddit so I apologize for any formatting errors and whatnot)
+
+I created a Python program with a GUI using Tkinter. Basically, it's simulating a coin flip and you have to guess whether it's going to land on a Head or Tails. Very basic, I know. But having to create this on my own was very challenging and yet it makes me want to learn more! Cheers to learning more Python :D
+
+&#x200B;
+
+EDIT: Thank you so much for the positivity! I created a GitHub account to post a copy of my code. Also, there is a dice version of this game where you can guess which side a single dice will land on. It has the same functionalities as the coin flip! Forgot to put that in. 
+
+Here's the link:
+
+[https://github.com/Cindy1321/Coin-Flip-Project/blob/master/code](https://github.com/Cindy1321/Coin-Flip-Project/blob/master/code)

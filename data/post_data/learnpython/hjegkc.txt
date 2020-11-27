@@ -1,0 +1,20 @@
+Hello all,
+
+I seem to encounter a lot of documentation and tutorials that use .format() method instead of f string literals.
+
+Personally,
+
+    print("I can't seem to {} of a {} why someone {} {} {}".format('think', 'reason', 'would', 'prefer', 'this'))
+
+versus
+
+    easily = "easily"
+    sentence = "sentence"
+    this = "this"
+    print(f"A much more {easily} readable {sentence} such as {this}")
+
+F string literal is always much easier to decipher and thus avoid errors.
+
+Perhaps there's some benefit of .format() that I'm unaware of. Googling hasn't brought up much on the debate.
+
+Cheers!

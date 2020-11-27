@@ -1,0 +1,14 @@
+hey guys, I've been thinking a lot about Python and the learning process.
+
+It can be brutal.
+
+Probably the most difficult thing is not having anyone around to tell you if you're doing things right or heading in the right direction (thank goodness for this subreddit though).
+
+I wanted to provide a few pieces of encouragement for anyone struggling with the learning process:
+
+* Those feelings of a lack of progress, wandering, and discouragement are normal. Some of these feelings are part of the larger experience of impostor syndrome. It's ok to feel these things, just don't give in to them. 
+* The best way to overcome and not give into impostor syndrome? Fixate on growth like hell. You don't have to have huge growth, just enough to keep moving forward. Was there a recursive function you understood better? An interview question you memorized? Maybe you read a few more pages in a Automate the Boring Stuff. All small, but fantastic ways to grow and overcome impostor syndrome.
+* You're heading in the right direction. Python is a great OOP language to learn-keep going. You're asking for feedback here and genuinely asking for help.  Keep staying open to feedback and make small adjustments from there. 
+* You'll always be "becoming" a Python programmer and there's not a point of arrival. Remember, learning Python is a long game and you'll always be learning new things. If you ever get discouraged with forgetting a function or piece of syntax, expert Python coders still use StackOverflow to solve their problems so don't feel bad :) 
+
+Feel free to ask any questions, I'm here to help.

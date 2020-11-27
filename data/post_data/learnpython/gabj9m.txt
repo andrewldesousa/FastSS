@@ -1,0 +1,23 @@
+I have been dabbling in programming for a few years now, but with a full-time job and other commitments, I never really made the time to create something truly useful. 
+
+I went through the web scraping phase, made simple scripts to move files out of my downloads folder and place them into the respective folder based on their extension, and I was quite content with this kind of simple stuff. 
+
+But now I finally feel like I made something worth while! While quarantined with the fam, I overheard my mom trying to resize 100s of product images for her e-com site. 
+
+Mom is not technologically incapable, she knows how to google "Image Resizer" or something along those lines, but she always does them one-by-one. A huge time sink. I did not know she does this every time she gets new images from her vendors. 
+
+**Mom:** "This is going to take me forever! This vendor never sends me the right image size, every quarter this takes hours, ARGHHH!"
+
+**Python Noob:** "I think I can get this done in a few minutes for you, mind if I give it a go?"
+
+After some googling I proceeded to use the Pillow module to iterate through all of the images in a folder and plop them into a new folder, nicely resized. This took me like 10 mins to resize all of the images, she was blown away. 
+
+I went one step further though because I knew this was a recurring thing for her. I needed to make a proper desktop icon for her to clickity clack and immediately have 100s of images resized anytime. A few youtube videos later, and she was able to double click an icon on her desktop to resize product images anytime without needing the command prompt. 
+
+It took just a few minutes to teach her how to put the original images in folder X, double click the image resizing icon, and the new images would be in folder Y shortly thereafter. 
+
+Needless to say, she is super happy to be able to resize all of these images in bulk, saving her HOURS of her time. I am on Cloud 9 as well because I feel like I've finally put my programming wherewithal to good use by helping my mom with something so practical. 
+
+I'm excited to continue learning new ways to make life easier with the "magic" of python. 
+
+TL;DR - Finally did a thing in python and feeling quite good about it!

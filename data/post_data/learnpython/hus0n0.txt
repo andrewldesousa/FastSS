@@ -1,0 +1,17 @@
+Hello everyone,
+
+I see around 20 posts a day minimum (and I'm only on for a few hours) regarding resources for learning python, for learning machine learning, etc.
+
+I think one of the reasons for this may be, there are just sooo many posts regarding this, it is difficult to pin one down as "a good resource/good answer".
+
+These posts however clutter the page, and the answers are always repititious (it's the same books/courses over and over again). I'm not an admin, but I was thinking we could get maybe a poll going for the "best/most useful resources for learning python" or for machine learning as well, have it pinned, and then refer everyone who asks the question "I'm a beginner/newbie in python, what books should I read/where should I start, etc." to said pinned post.
+
+I think this will not only help those looking for a clear answer (rather than scouring the web through thousands of similar questions, they now have 1 nice compiled list), and help reduce the clutter/repitition of the posts on this subreddit.  
+
+
+To address the points below:   
+1) Yes, the wiki sidebar does exist, although most people don't look at that (otherwise they wouldn't ask all the time)
+
+2) That contains a lot of info. I'm thinking we need a consolidated list, only a handful of items, sorted by the users (for further reading, they can look there). There are so many books, how does one sort by most useful/best .
+
+3) This still would not eliminate the problem of frequent posts. I'm thinking at the end of the day, we could outright just eliminate these questions altogether (i.e. have a bot either prune/prevent these types of posts). Having it pinned would mean everyone sees it (versus the rules which I doubt anyone looks at)

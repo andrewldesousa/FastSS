@@ -1,0 +1,9 @@
+I feel good and I just wanna talk about it.
+
+I'm teaching my self python using the Python Crash Course book, and it has been a blast. Today, I finished a small portion of the Alien Invasion project. At first, nothing made sense (even though I had a really good understanding of classes and functions), it looked like a huge mess. 
+
+Everytime the author would try to simplify/refactor code and stuff like that, it would look even more complicated. After every line of code that I copied I would just think "this is not for me." After I decided I was done copying for the day, I let out a fat fart, which motivated me to understand the code no matter what. All this work wasn't gonna go for nothing. 
+
+So I sat down (I was already sitting down) and pushed myself to understand what every line of code meant and what it did. I went over the code a few times and suddenly, it all clicked. Man my brain had an orgasm or something cuz that was the smartest I've ever felt in a minute.
+
+I love Python. I love programming. To all of you out there that are struggling with a concept, don't give up, because if my sleep-deprived ass can understand something, you can too.

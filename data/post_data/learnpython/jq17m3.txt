@@ -1,0 +1,7 @@
+I started learning python not long ago and Just a few days ago I finished my first script that has some helpful application at work. It’s a super simple script that reformats a CSV file from a vendor, but It saves a lot of time and headaches.
+
+Here’s the problem, how do I share this script with my non-tech savy coworkers while we’re all working from home? I realize I can just send them the .py file but they’ve never run python in their life. Am I really supposed to just send them this and say “install python and then also pip install pandas”?
+
+I know some coding but I don’t have an in-depth understanding of technology so if there is an obvious answer to this problem, sorry. But any help would be appreciated.
+
+Edit: Cant emphasize how much I love this community. Really appreciate all the help.

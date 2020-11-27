@@ -1,0 +1,7 @@
+For the first time in my life, I wrote a Python program from scratch to automate my work. My boss gave me the task of copy/pasting all the fields from a long online application form to a word doc and I wrote a code to do that in 5 minutes. It shaved off at least 40 minutes from my workload. It might not seem like much, but I'm over the moon :)
+
+Edit 1: Thank you all for your kind words. Being part of this community has helped me immensely. I’m truly grateful to have found it.
+
+For those who asked for the code, here it goes - https://github.com/abhisu30/OnlineFormExtraction
+
+Edit 2: For those who asked, no I didn’t use my work computer. My boss asked me to email her the word file with the form fields so I executed this code on my home computer and emailed it to her.

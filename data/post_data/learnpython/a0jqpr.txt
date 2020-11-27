@@ -1,0 +1,13 @@
+I'm not a programmer, but for the last 18 months I've using python to automate some simple tasks. I work at a mailing house as a "data guy". Been here for 7 years, started as an apprentice and in the last year moved into the data side of the company where I'm now the sole data guy. A lot of what we do is setting up variable print documents and sending them out in the post. Things like transnational statements, bank statements, bills etc.
+
+Sending a letter isn't cheap so we need to try and make savings where we can. I'm not sure if people outside of this industry are aware but you can mailsort data into an order to get a good postal discount. So instead of sending all of our letters standard tariff, unsorted, where Royal Mail will then sort your letters, we try to sort this data so we can send the mail to different Royal Mail depots to get a saving.
+
+When you receive a data file from a client this is fine because you use the data file and merge with a pdf document to produce your print ready file.
+
+When you are supplied a PDF from a client you can't exactly extract the address data easily, mailsort in a separate program and add the new information (barcodes, bag numbers etc.) back into the original PDF.
+
+Using Python I have managed to extract this data, mailsort it using our mailsort software, generate the mailsort barcodes for the postal discount and put them back into the original PDF. Meaning for this particular job we save £55,000 just in postage costs over the year. There are a few more jobs for me to set up now.
+
+I'm not here to brag or anything, but this is the first real thing I've done that has made people realise I have some potential and not think I'm a bit of an idiot. Hopefully I can negotiate a pay rise some time in the future! Maybe I can ask for more than my current 24k ha! More excited how I actually made something though! 
+
+Keep on learning guys, this project just hit me one day and I'm glad I've spent the time to learn python.

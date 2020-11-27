@@ -1,0 +1,57 @@
+Hope this is a relevant place to share.  Small lesson for my 10yo son on solving problems with computers.
+
+My son was assigned the following [simple math worksheet.](https://imgur.com/gallery/6WFl3DD)
+
+I was really impressed that after completing the first addition, he realised that it was going to be a very menial and repetitive task.  (I'm always encouraging him to learn python and have done a little pygame with him).  He approached me and said, "Dad is there an easier way to do this?"
+
+So I threw together and talked him through this horrible quick and dirty script before allowing him to use it to complete his work:
+
+    shop = [ [ 'soccer ball' , 16.50 ],
+             [ 'pencil' , 0.50 ],
+             [ 'toy car' , 3.50 ],
+             [ 'ice cream' , 4.80 ],
+             [ 'yo-yo' , 5.20 ],
+             [ 'book' , 17.35 ],
+             [ 'piece of cake' , 5.40 ],
+             [ 'apple' , 0.75 ] ]
+    
+    
+    items = []
+    
+    while True:
+        print('Welcome to shop')
+        print('Press A to add an item.  Press R to restart.')
+        action = input()
+        if action.upper() == 'R':
+            print('starting over')
+            items.clear()
+        elif action.upper() == 'A':
+            count = 0
+            for item in shop:
+                count += 1
+                print(count, item[0], item[1])
+            selection = input()
+            print('how many', shop[int(selection)-1], 'do you want?')
+            quantity = input()
+            for i in range(int(quantity)):
+                items.append(shop[int(selection)-1])
+            print('you have the following in your cart')
+            total = 0
+            for item in items:
+                total += item[1]
+                print(item)
+            print('total: $' + str(round(total,2))) 
+        else:
+            print('you said nothing useful')
+
+Obviously it's lacking any technical merit.  But I was just feeling very positive that I was able not just to brag about, but to actually \*show\* him what a computer can do for him.  My daughter's struggling with algebra and I realise that our kids really need to understand WHY they should learn something and HOW it can actually help them in the real world.
+
+Anyway, just want to encourage any parents, uncles, aunts, carers out there to persist with sharing your joy.
+
+EDIT: Wow! I appreciate all the feedback and discussion.  I am highly honored to have received a Relevant XKCD!  Takes me back to my slashdotting days.
+
+ATTENTION NEW / LEARNING PROGRAMMERS: This is throwaway code.  I would \*never\* put this code into a production environment.  Some of the great discussion below (incl. the XKCD) raises the highly pertinent issue of value/time.  You would only write and use code like this when you know 100% it's a one off task and as I mentioned in another post, you control the data input.
+
+There's a value proposition where you have to decide if the time saved on the repetitive task is worth the investment in the code.  Obviously, 1 hour coding to solve 10 minutes of math homework would have been a total waste of time  (with the slight exception that this coding had educational value for a child).  That's why the code is so RUBBISH.  Because I only spent 10 minutes writing it.  As I wrote it, I was aware that there were \*better\* ways to do this.  I know how to use enumerate and dictionaries and validate data types, but this was totally off the cuff.  My only concern was getting the output I wanted with minimum investment, and being able to describe the control flow steps to my son.
+
+Also, for those concerned about him learning math:  I volunteer in his class as a parent helper, specifically working with a small group of advanced math kids, of which my son is one.  I actually told his teacher what we did here and he was really happy about it.

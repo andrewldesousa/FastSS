@@ -1,0 +1,20 @@
+Hey, I made and ran a workshop / demonstration as part of a series of events my university is running; 'High Performance Python'.
+
+ I have all of the code and presentations on Github, so I thought I'd share it with you all in case anyone finds it useful. [Github Link](https://github.com/LukeRoantree4815162342/QUB_DW_HighPerformancePython)
+
+The workshop had two parts;
+
+### A Python crash course / refresher -
+[PythonRefresher](https://github.com/LukeRoantree4815162342/QUB_DW_HighPerformancePython/blob/master/PythonRefresher.ipynb)
+
+### High Performance Python -
+[HighPerformance](https://github.com/LukeRoantree4815162342/QUB_DW_HighPerformancePython/tree/master/HighPerformance)
+
+Additionally, we have a tutorial for building a simple tic-tac-toe application;
+[PythonApp](https://github.com/LukeRoantree4815162342/QUB_DW_HighPerformancePython/tree/master/Python_App)
+
+Hope this is useful to someone, it was fun to make at least. 
+Message me if you have suggestions, or even better fork the repo and make a pull request.
+
+
+**[Edit: Someone gilded this - Thank you!]**

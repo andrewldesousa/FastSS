@@ -1,0 +1,33 @@
+When you're starting out like me learning Python, these are the 12 recommended extensions that I currently have installed. I hope it helps you in your learning journey as it is doing wonders for me:
+
+&#x200B;
+
+1. Bracket Pair Colorizer
+2. indent-rainbow
+3. Python
+4. Python Docstring Generator
+5. Python Preview
+6. Trailing Spaces
+7. Visual Studio Intellicode
+8. Gitlens
+9. Docker
+10. Dracula Theme
+11. Material Icon Theme
+12. Settings Sync
+
+&#x200B;
+
+Let me know if you have other cool extensions that I can add.
+
+Thanks!
+
+&#x200B;
+
+Edit:
+
+* Added:  Gitlens (for those already learned git/github), Docker (only install if you learned Docker), Material Icon Theme, Settings Sync, Dracula Theme
+   * Considerations:
+      * Themes: Monokai Pro (very cool, I tried it), Material (most popular)
+      * Code-Assistant/Auto-Complete: Kite, TabNine
+      * Webdev: Minify, Prettier, Paste JSON as Code (for those learning html, css and js)
+* Removed:  vscode-icons (sorry microsoft), Code Spell Checker (confusing with other syntax errors)

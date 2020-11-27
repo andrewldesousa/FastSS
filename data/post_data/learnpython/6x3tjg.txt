@@ -1,0 +1,5 @@
+I'm going to be taking this to help me learn python. 
+
+If anyone else is interested the link is below and there is a [slack support group](https://join.slack.com/t/redditmitedxpython/shared_invite/MjMyNDc3ODk0MTEzLTE1MDM5NzY4OTMtY2E3ZDYzMDQ1Yg) running for all those who want to take it. 
+
+[Course Link](https://www.edx.org/course/introduction-computer-science-mitx-6-00-1x-11)

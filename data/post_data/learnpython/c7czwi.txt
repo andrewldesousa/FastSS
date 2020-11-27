@@ -1,0 +1,1 @@
+For example, a few helpful people in this subreddit advised me to use f-strings instead of %-formatting or str.format() and to utilise numpy arrays when working with large/complex lists.

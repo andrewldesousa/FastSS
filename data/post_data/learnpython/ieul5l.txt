@@ -1,0 +1,11 @@
+ 
+
+Programming skills are important. Functions, data structures, etc...With so many free resources, the number of learning options can be overwhelming. Worse yet, I think there can be a lot of uncertainty going from learning to nabbing a job where you code.
+
+As I've considered my own career, I remember struggling a lot with what to do as I was learning programming concepts like classes, functions, or recursion. For me, the big goal was always a job. Early on, I didn't feel like I had enough to offer a company. But I overcame that lack of experience and landed a technical role with zero years of experience. Here are a few recommendations based on what I did:
+
+* Solve real world problems outside of your learning context. So many courses and tutorials are meant to make you feel accomplished. But the way you'll continue to learn is by solving real world problems outside of your learning environment.
+* Talk the talk. Okay, you need to be able to follow your talk with results. But a lot of getting a job involves being able to talk about your skills in a format the company is looking for. Otherwise, they won't recognize you possess the skills they're looking for.
+* Get creative by showcasing your projects. Even if your projects were apart of a tutorial, showcase it. I saw a great way of doing this on a guy's LinkedIn profile the other day. He was enrolled in a coding boot camp, but listed his projects as separate experiences on LinkedIn. Some recruiters will be rigid with only reaching out to people with full-time work experience, but some recruiters just want someone with the skills their company is looking for.
+
+What are your thoughts? Agree/Disagree?

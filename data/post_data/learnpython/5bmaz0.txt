@@ -1,0 +1,15 @@
+Today I am releasing my first book, **Python 101**, for free for 48 hours. Python 101 was written as an introduction to the Python programming language. While it is intended for beginners, some have claimed that they needed more hand-holding than this book provided for them. So I currently recommend it as an **introductory** and **intermediate** book for developers that are looking to learn Python.
+
+When I originally wrote the book, I noticed that there were few or no books available that described how to create executables of your code or distribute your code via Python’s Package Index (PyPI). Python 101 covers these topics as well as introducing the reader to Python’s standard library, how to install 3rd party packages and an introduction to some of the most popular 3rd party packages for Python, such as SQLAlchemy, requests and virtualenv.
+
+Python 101 has **5 sections, 44 chapters and 295 pages**.
+
+You can get Python 101 for free on Leanpub using the following link: http://leanpub.com/python_101/c/48hours
+
+If you happen to have a [Gumroad](https://gum.co/bppWr) account, then you’ll be able to get the book free there as well by using the following offer code: **48hours**
+
+You will get the **PDF**, **epub** and **mobi** versions of the book. You can see a full table of contents on the Leanpub site
+
+If you like my first book, you can get its sequel, Python 201: Intermediate Python for **50%** off here: http://leanpub.com/python201/c/50percent
+
+I also write a fun [Python blog](http://www.blog.pythonlibrary.org/) that has many other tutorials on it.

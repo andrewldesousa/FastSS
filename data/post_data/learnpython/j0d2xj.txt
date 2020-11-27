@@ -1,0 +1,15 @@
+Today in the afternoon I was typically googling some stuff about Python, minding my own business. A normal day for a normal programmer, right? Not for me this time! Suddenly, from one of my searches, I got the message from Google page saying: "You're speaking our language. Up for a challenge?"
+
+For the first few moments, I did not realize what was going on. Did I open some shady Google-like website? Was this an ad...? The layout itself seemed kind of mysterious. Like it led you to a secret, dark room for a mission to save the world from publicly unknown powers. lol. Regardless, I clicked the "I want to play" button.
+
+The page looks like a typical command-line interpreter. There are 5 total levels, one challenge for the first level, two challenges for the second, three challenges for the third, and so on...
+
+I was so thrilled that I've been coding non-stop for almost 7-8 hours. They are super fun to do and they surely get harder along the way! I've recently completed level 3 and the page asked for my personal information so they can contact me for an interview (maybe, who knows?!).
+
+Obviously, as a second-year student, I did not expect this kind of opportunity at all. I don't even know where all of this will lead me to, but one thing is sure, as I keep doing these challenges, it brings valuable experience and knowledge to the table!
+
+I am really excited about this. I wholeheartedly wish you, too, the best of luck in the near future!
+
+BTW, the platform is called Google FooBar.
+
+[Image of the Website](https://imgur.com/a/RzR5lTI)

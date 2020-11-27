@@ -1,0 +1,44 @@
+I've been learning python for about 2 days, and this is my first independent program.
+
+It's a *very very* simple short survey, that only took about 10 minutes, but I am still kinda proud of it
+
+    print('PERSONAL SURVEY:')
+    
+    name = input('What is your name? ')
+    
+    if len(name) < 3:
+     print('ERROR: Name too short; must exceed 3 characters')
+    elif len(name) > 50:
+     print('ERROR: Name too long; must not exceed 50 characters')
+    else:
+     print('Nice name')
+    
+    favcolor = input("What's your favorite color? ")
+    
+    if len(favcolor) <= 2:
+     print('ERROR: Word too short; must exceed 2 characters')
+    elif len(favcolor) > 50:
+     print('ERROR: Word too long; must not exceed 50 characters')
+    else:
+     print('That is a nice color!')
+    
+    age = input('How old are you? ')
+    
+    if int(age) < 10:
+     print("Wow, you're quite young!")
+    elif int(age) > 60 and int(age) <= 122:
+     print("Wow, you're quite old!")
+    elif int(age) > 122:
+     print('Amazing! You are the oldest person in history! Congrats!')
+    elif int(age) >= 14 and int(age) <= 18:
+     print('Really? You look like a college student!')
+    elif int(age) >= 10 and int(age) <= 13:
+     print('Really? You look like a 10th grader!')
+    else:
+     print('Really? No way! You look younger than that, could have fooled me!')
+    
+    print(f'''Your name is {name}, your favorite color is {favcolor}, and you are {age} years old.
+    
+    *THIS CONCLUDES THE PERSONAL SURVEY. HAVE A NICE DAY*''')
+
+Let me know of any critiques you have or any corrections you could suggest. Tysm <3

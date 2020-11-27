@@ -1,0 +1,13 @@
+In October I started my Python-journey, with a full time job and a 2yo kid the spare time is scarce.  
+ I've been following a Udemy-course and also used some android-apps to just study something every day.  
+ 2 weeks ago I made my first real script from scratch, I had a idea of automating / helping with a tedious task at work. I'm a train driver, and every train we start we fill a paper form, check some values from 2 different paper lists and enter some of that data into the control computer.
+
+The script were terminal based and did all the calculations I wanted, checked up the values from those 2 lists (one which is short, so I just made an elseif of it, the other is long so I made a .txt with the values) and gave a summarized result. 
+
+Now 2 weeks later I've deployed it on the web with Flask to be able to share with my colleges!  
+With dropdowns, forms to fill and a button to run the scripts and show the result.
+
+Thanks to inspiration from this subreddit (and others) I made it working! It's plain ugly, but the functionality is there. Guess I'll come back and sort the design with bootstrap or at least some css'ing next time I feel a dip in the studying.
+
+I dno if there's a better way to post a image, but here's one:  
+[Image of the result with explanations](https://postimg.cc/xJ4cJFrG)

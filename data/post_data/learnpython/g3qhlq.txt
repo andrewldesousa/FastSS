@@ -1,0 +1,5 @@
+I see a lot of projects online, sometimes even on /r/Python that use data they parsed to make cool graphs, statistics, etc.
+
+Where do people get that data? Is there a website for most  subjects in life? What do I search for to find the average price of a car, for salaries, for the best TVs of 2019, Laptop prices for the past few years and plenty other subjects? I just threw a bunch of random stuff that popped into my head, but you get the idea.
+
+Thanks in advance :)

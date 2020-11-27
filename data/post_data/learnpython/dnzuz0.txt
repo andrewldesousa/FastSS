@@ -1,0 +1,27 @@
+I've been programming in python for about a year now. And I've never encountered this module before, and it's soooooooo incredibly useful. Like I'll probably never even google anything ever again ( ok thats total bullshit). But really my point here is if you're learning python you should be aware of and know how to use the help module IMHO. across the thousands of webpages I've been to and resources I've used to teach myself I can't believe I didn't run into it sooner. Anyways I just thought sunday was a good day for ranting and sharing. I hadn't initially planned on asking a question here but maybe we could get something along the lines of things you found out too late and or things everyone learning python IYHO should know. :)
+
+edit:
+
+help is a function in python which describes the object you pass to it. The description it outputs is it's docstring, as pointed out by DataDecay more information on docstrings can be found in [PEP-257](https://www.python.org/dev/peps/pep-0257/)
+
+so if you want more information about an object you can pass it as an argument to help.
+
+Say for instance you were confused as I currently am about how asyncio works.
+
+You could type help(asyncio) and it would give you information about that package (technically object).
+
+YAYYYYYYY and rkarl7777 both mentioned another very useful utility named dir, which will list the methods available to the object passed to it.
+
+So after gaining a general understanding of the base package you can then look through all of its methods.
+
+dir(asyncio)
+
+then if you have questions about any of the methods in that list you can query those with help.
+
+help(asyncio.StreamWriter)
+
+Now hang on just a second while I try and find somebody who is better at explaining things than I am.
+
+I went through a couple of articles, this one seems to be the best.
+
+[https://www.linuxnix.com/python-builtin-helpdir-help-type-and-\_\_\_doc\_-functions/](https://www.linuxnix.com/python-builtin-helpdir-help-type-and-___doc_-functions/)

@@ -1,0 +1,30 @@
+1.	Learn python: 
+ 1.	https://www.codecademy.com/en/tracks/python
+ 2.	https://www.coursera.org/learn/python 
+ 3.	https://www.coursera.org/learn/python-data
+2.	Solve challenges with Python
+ 1.	https://www.hackerrank.com/domains
+ 2.	Note: You should be able to the "Algorithms" and "Python" domains. "AI" is fun too.
+3.	Learn skills with Python
+ 1.	https://www.coursera.org/learn/python-databases
+ 2.	https://www.coursera.org/learn/python-network-data
+4.	Get ready to build something
+ 1.	Get a Github account - 
+ 1.	If you have an edu email: https://education.github.com/pack
+ 2.	Star interesting projects! Search, discover, read!
+ 2.	www.reddit.com/r/Python
+ 3.	StackOverflow.com
+5.	Build something!!! Ideas:
+ 1.	I know you're in the financial world. Why not Computational Investing?
+      1.	https://www.coursera.org/learn/computational-investing
+ 2.	Python webapps are popular. Learn DJANGO (a python framework).
+      1.	http://gettingstartedwithdjango.com/ 
+ 3.	Raspberry Pi's are hackable little computers that can be scripted with python. Buy a Pi 2 and hack away! Build a robot
+ 4.	Visit Hackathons!
+     1.	https://mlh.io/seasons/s2015/events
+ 5.	Do TOPCODER challenges. These are some of the questions that come up in technical interviews
+ 1.	https://www.topcoder.com/challenges/?pageIndex=1
+ 6.	Something else! The possibilities are endless. Find something you want to do and do it!
+6.	Next steps
+ 1.	Data Science is huuuuge and it's only getting bigger. Seek out online courses for DS and do the TopCoder DS challenges. 
+ 3.	Practice more on Django or Python on Pylons. Search for webdev openings. 

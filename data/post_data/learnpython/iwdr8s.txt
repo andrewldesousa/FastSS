@@ -1,0 +1,5 @@
+I've been learning Python for maybe a month now, mostly with Al Sweigart's Automate the Boring Stuff, and last week at work I actually managed to write a script to automate something. My boss asked me to copy a list of file names (70+) in a network folder into a spreadsheet; this is not difficult to do manually but it's a faff so I thought I'd try using os.walk and... it worked!
+
+I wanted to post here partly because I'm feeling smug, but also to try to encourage any other beginners who are thinking of / scared of / struggling with learning Python. I was always keen to try to learn something like Python but I'm crap at learning unless there's a real world application; Al's course is brilliant at teaching concepts, but then relating them to how you can actually use them to get things done in the real world, and that's made learning a lot more fun and doable.
+
+Thanks also to everyone on this community for being friendly and supportive. I'm now going to go and delete all the comments from my script so none of my colleagues will ever be able to reverse engineer it...

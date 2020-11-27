@@ -1,0 +1,191 @@
+Hello everyone!
+
+I am a seasoned SQL programmer/reporting expert who's been working in Radiology for the past 20+ years. I had always wanted to learn another programming language and had many starts and stops in my road to that end. I was able to understand the process of programming but never really pushed myself to have any real work/world applications to try it out on.
+
+So for my 50th birthday I made a promise to myself that this would be the year that I actually learn Python and create a program. I started with the "Automate The Boring Stuff" course and then figured out what problem I wanted to solve.
+
+Once a month I have to collect test results on the monitors that the radiologist use to read imaging (xrays) on. The Dept of Health says we need to be sure the monitors are up to snuff and we have proof that this testing is happening. Normally I would have to click through a bunch of web pages to get to a collection of PDFs (that are created on the fly)  that contain the test results. Then I'd have to save the file and move it to the appropriate directory on a server. Very manual and probably takes 30 minutes or so to get all the reports.
+
+It took a bit of time but my Google Fu is strong so I was (for the most part) able to find the answers I needed to keep moving forward. I posted a few problems to Stack Overflow when I was really stumped.
+
+The end result is the code below which does the whole process in about a minute. I am so proud of myself getting it to work and now I have this extra boost of confidence towards the other jobs I plan to automate.
+
+I also wanted to post this because some of the solutions were hard to find and I hope if another programmer hits the same snag they could find it in a Google search and use part of my code to fix theirs.
+
+I'm on fire and have so many more new projects I can't wait to create!
+
+EDIT: changed any real links to XXX for security reasons.
+
+    from selenium import webdriver
+    from selenium.webdriver.common.by import By
+    import time
+    import shutil
+    import os
+    from datetime import datetime 
+    
+    ##Set profile for Chrome browser 
+    profile = {
+        'download.prompt_for_download': False,
+        'download.default_directory': 'c:\Barco Reports',
+        'download.directory_upgrade': True,
+        'plugins.always_open_pdf_externally': True,
+    }
+    options = webdriver.ChromeOptions()
+    options.add_experimental_option('prefs', profile)
+    driver = webdriver.Chrome(options=options)
+    
+    ##Log into monitor website
+    driver.get("https://xxx.com/server/jsp/login")
+    
+    username = driver.find_element_by_name('j_username')
+    password = driver.find_element_by_name('j_password')
+    
+    username.send_keys("XXX")
+    password.send_keys("XXX")
+    
+    driver.find_element_by_css_selector('[value="Log on"]').click()
+    
+    ##Start loop here
+    monitors = ["932610524","932610525","932610495","932610494","932610907","932610908","932610616","932610617","932610507","932610508","1032422894","1207043700"]
+    for monitorID in (monitors):
+        url = "https://xxx.com/server/spring/jsp/workstation/complianceCheckReport/?displayId={}".format(monitorID)
+    
+        driver.get(url)    ##Driver goes to webpage created above
+    
+        workstationName = driver.find_elements_by_class_name('breadcrum')[3].text ##Grabs workstation name for later
+    
+        badWords =['.XXX.org']    ##Shorten workstation name - remove url
+        for i in badWords:
+            workstationName = workstationName.replace(i, '')
+        
+        driver.find_element_by_class_name('css-button2').click()    ##Driver clicks on top button that leads to webpage with most recent PDF
+    
+        driver.find_element_by_class_name('href-button').click()    ##Now we're on the pdf webpage. Driver clicks on button to create the PDF. Profile setting for Chrome (done at top of program) makes it auto-download and NOT open PDF
+    
+        time.sleep(3)    ##Wait for file to save
+    
+        dateTimeObj = datetime.now()    ##Get today's date (as str) to add to filename
+        downloadDate = dateTimeObj.strftime("%d %b %Y ")            
+           
+        shutil.move("C:/Barco Reports/report.pdf", "Y:/Radiology/DOH monitor report/All Monitors/" + (workstationName) +"/2020/"+ (downloadDate) + (monitorID) + ".pdf")    ##Rename file and move
+    
+    driver.close()
+    time.sleep(3)
+    driver.quit()
+
+UPDATE: since posting this I have done some major updates to the code to include almost everything that commenters had suggested. I think I am done with this project for now and starting work on my next automation.
+
+&#x200B;
+
+    from selenium import webdriver
+    import time
+    import shutil
+    import os
+    from dotenv import load_dotenv
+    import requests
+    
+    # Set profile for Chrome browser
+    profile = {
+        'download.prompt_for_download': False,
+        'download.default_directory': r'C:\Barco Reports',
+        'download.directory_upgrade': True,
+        'plugins.always_open_pdf_externally': True,
+    }
+    options = webdriver.ChromeOptions()
+    options.add_experimental_option('prefs', profile)
+    driver = webdriver.Chrome(options=options)
+    
+    # Loads .env file with hidden information
+    load_dotenv()
+    
+    # Log into BARCO website
+    barcoURL = os.environ.get("BARCOURL")
+    
+    # Check that website still exists
+    request = requests.get(barcoURL)
+    if request.status_code == 200:
+        print('Website is available')
+    else:
+        print("Website URL may have changed or is down")
+        exit()
+    
+    driver.get(barcoURL)
+    
+    username = driver.find_element_by_name('j_username')
+    password = driver.find_element_by_name('j_password')
+    
+    name = os.environ.get("USER1")
+    passw = os.environ.get("PASS1")
+    
+    username.send_keys(name)
+    password.send_keys(passw)
+    
+    driver.find_element_by_css_selector('[value="Log on"]').click()
+    
+    # Start loop here
+    
+    barcoURL2 = os.environ.get("BARCOURL2")
+    
+    with open('monitors.csv', newline='') as csvfile:
+        for row in csvfile:
+            url = (barcoURL2).format(row.rstrip())
+    
+    # Driver goes to webpage created above
+            driver.get(url)
+    
+    # Grabs workstation name for later
+            workstationName = driver.find_elements_by_class_name('breadcrum')[3].text
+    
+    # Grabs date from download line item
+            downloadDate = driver.find_element_by_xpath('/html/body/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr[2]/td/div[@class="tblcontentgray"][2]/table/tbody/tr/td/table[@id="check"]/tbody/tr[@class="odd"][1]/td[1]').text
+    
+    # Remove offending punctuation
+            deleteDateComma = [',']
+            for i in deleteDateComma:
+                downloadDate = downloadDate.replace(i, '')
+    
+            deleteColon = [':']
+            for i in deleteColon:
+                downloadDate = downloadDate.replace(i, '')
+    
+            sensorID = driver.find_element_by_xpath('/html/body/table/tbody/tr[2]/td/table/tbody/tr/td[2]/table/tbody/tr[2]/td/table/tbody/tr[2]/td/div[@class="tblcontentgray"][2]/table/tbody/tr/td/table[@id="check"]/tbody/tr[@class="odd"][1]/td[4]').text
+    
+    # Remove offending punctuation
+            deleteComma = [',']
+            for i in deleteComma:
+                sensorID = sensorID.replace(i, '')
+    
+    # Get workstation name - remove url info
+            stripURL = ['.xxx.org']
+            for i in stripURL:
+                workstationName = workstationName.replace(i, '')
+    
+    # Driver clicks on top button that leads to webpage with most recent PDF
+            driver.find_element_by_class_name('css-button2').click()
+    
+    # Now we're on the pdf webpage. Driver clicks on button to create the PDF
+            driver.find_element_by_class_name('href-button').click()
+    
+    # Profile setting for Chrome (done at top of program)
+    # makes it auto-download and NOT open PDF
+    
+    # Wait for file to save
+            time.sleep(3)
+    
+    # Rename file and move
+            shutil.move("C:/Barco Reports/report.pdf", "Y:/Radiology/DOH monitor report/All Monitors/" + (workstationName) + "/2020/" + (downloadDate) + " " + (sensorID) + ".pdf")
+    
+    driver.close()
+    time.sleep(3)
+    driver.quit()
+    
+    # Things to update over time:
+    # Use env variables to hide logins (DONE),
+    # gather workstation numbers (DONE as csv file)
+    # hide websites (DONE)
+    # Add version control (DONE),
+    # Add website validation check (DONE)
+    # Add code to change folder dates and
+    # create new folders if missing
+
+&#x200B;

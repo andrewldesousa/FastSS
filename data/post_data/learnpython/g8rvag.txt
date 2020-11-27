@@ -1,0 +1,1 @@
+For example if I had an amazing figure template on matplotlib that I might want to use again is there a repository where you should put these things ?

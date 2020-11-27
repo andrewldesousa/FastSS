@@ -1,0 +1,27 @@
+So I work with a financial firm. We had to go back and get quarterly statements from December for all accounts. Its over 350 accounts. Not all the statements are similar - some are a couple of pages and others are 15-20 pages. The company that generates the statements sent us a PDF of ALL statements. That bad boy was over 3800 pages long. 
+
+So as we are doing these reviews, we fill out review paperwork, and then we have to go through this HUGE pdf to find the corresponding account. When I search for their name, it literally took 20 seconds or more to search the whole document. Then, I have to print the PDF and just save the respective pages, then save with the name of the account. 
+
+Last night I thought I'd try a PDF parser. I've done some general Python, but nothing like this. I used PyPDF2. 
+
+**I'm going to go through my thought process, but I can't really post code because it's honestly a mess and I don't know if my boss would appreciate it. At the end I'll pose an issue I had. And state what I learned** 
+
+I had to find a way to find where the first page of each statement was. Guess what? They all have "Page 1 of", so I parsed each page and had it return every page in which that string exists. Then, I had to find how many pages were in each statement, since the page number varies. So if index 0 and index 16 contained that string, then I knew 0-15 were one statement. 
+
+Now I'm able to split it, but I needed to save it with the filename as the account number. Heck yes, the account number is listed on each first page. And the account number begins with the same three characters. 
+
+I iterated (is that the phrase) through the document. I grabbed the first page of each statement and set it as the first page. Then I got the index of the next page that has Page 1, and just subtracted 1. Then, I searched for the first three characters of the account number, and when it found it, return the index, then grab the following 7 characters which is the complete account number. Then it wrote the files!
+
+**Issue** so when I was actually splitting the documents, it kept running out of memory. I was using Visual Studio Code. I have 16gb ram, and task manager showed it hitting 2.5gb before the process was killed because of memory. I had to go into the loop and change the beginning index ever 25-30 PDFs generated. I was trying to find a way to allocate more memory, but I couldn't find a way. Any help is appreciated. If the code for the loop helps, I may can post that part. 
+
+**What I learned** this was incredible. While it was obviously a challenge (it took 20 minutes to pip install PyPDF2 and then get it to not throw an error in Visual Studio(Windows 10)) it's amazing to fathom I was able to actually do it. It took 5 hours (the SO was shocked that I was up until 3am). But I couldn't stop. The loop was pissing my off because it kept generating the same statement. I am not sure what really fixed it, because I made a couple of changes at one point and it worked. 
+
+My boss is freaking beaming right now. I'm beaming. He called me in to his office 20 minutes after I showed him the final product. He asked if I'd be willing to take on some more of this automation during work hours. He'd take off some of my workload, and also give me a 15% raise. 
+
+It's been a ramble but if you made it this far then you obviously are resilient enough to be a programmer.
+
+Edit: I want to add this. For those of you like me. Even if you're NEWER than me. You can learn the language, watch videos, do practice problems, but it takes a tremendous about of resiliency and patience to produce real-world and practical applications. It took a lot to learn what's very simple for others. I probably looked at 50 web pages trying to find an explanation that made sense. I wanted to give up a couple of times but I really wanted to come in to work today with a finished product.So I work with a financial firm. We had to go back and get quarterly statements from December for all accounts. Its over 350 accounts. Not all the statements are similar - some are a couple of pages and others are 15-20 pages. The company that generates the statements sent us a PDF of ALL statements. That bad boy was over 3800 pages long. 
+
+Edit2: I am in shock. This isn't in writing, but apparently the raise is verbally approved, but they are working to get paperwork drawn up. Right now, and this is all verbal, I'll get the raise. I just got an email from our IT guy that he was told to find a "top of the line programming computer" as my boss apparently put it. So when it's formal, I'll be getting a Dell XPS 15 (i9, 64gb ram, 1TB), dock, dual monitors. He (IT) said that it's probably way overkill, but the boss said to get it anyways. Boss asked if I thought about this full time. I was honestly so nervous (and still am) I just said "heck yeah Dave". He said all "the little programs you make" are property of the company, and they are not to leave the laptop. He also apologized for being so resistant in the past about implementing various technology that I had recommended. He then asked how I can learn about more stuff if I "need to go to college or take classes". I told him I'd love to go to college for it, but it's not really my personal budget and that there are some great online programs. He just said, "hmm well find and online program and get info on pricing and timeline; let get this official and go from there".
+
+Edited to remove the double text.

@@ -1,0 +1,9 @@
+Disclaimer: I know Khan Academy itself has a few programming modules. But they only scratch the surface and on their own are wholly insufficient to become a proficient coder. Khan Academy is 95% math, with everything else (incl. programming) stuffed into that remaining 5%. </disclaimer>
+
+For the past year I have used Khan Academy religiously to improve my math skills, going from almost pre-algebra all the way up up through Calculus 2. The way Khan Academy’s math modules are structured - bite-sized lessons that introduce key concepts followed by tailored practice problems, with each lesson laying the conceptual groundwork for those that follow, and all of the major topics being covered - has been amazingly productive for me. Because of that comprehensive and scaffolded structure, now I feel very confident in my university-level math skills where once I was basically mathematically illiterate. With select exceptions, Khan Academy is the only resource I’ve needed to achieve this level of success.
+
+**What I’m wondering is, is there a similar resource for computer programming?** In particular I’d like to learn Python, but eventually will also be interested in Java, R, and SQL. Again given my description of Khan Academy, what I’m looking for is a one-stop-shopping programming resource with a series of bite-sized lessons, followed by relevant exercises, that cover all the major concepts and techniques required to become proficient in a particular language. Does anybody know of such?
+
+Edit: Free like Khan Academy is of course preferred, but for the right resource, I would definitely pay.
+
+Edit 2: I do have a tiny bit of Python experience, but not very much at all.

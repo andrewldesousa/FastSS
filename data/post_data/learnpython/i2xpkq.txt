@@ -1,0 +1,5 @@
+Hi, I just want to share my personal project. Lots and lots of referencing I did in here and Tkinter makes me want to pull my hair out. Although it's not my first program, but it's the most stable one I've ever made so far :D.
+
+Github link: https://github.com/bajeebis/Morse-Code-Encoder-Decoder
+
+Please take a look, I've still got a lot to learn so criticisms and feedback are welcome.

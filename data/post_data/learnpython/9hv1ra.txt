@@ -1,0 +1,7 @@
+I made a cheatsheet for beginner to intermediate Python users about concepts I think everyone should know. Check it out and let me know what you'd want to see. Suggestions are more than welcome.
+
+~~[https://github.com/gpetepg/python\_tips/blob/master/python\_tips\_1.ipynb](https://github.com/gpetepg/python_tips/blob/master/python_tips_1.ipynb)~~
+
+Edit: Added a couple string formats! Let me know how I should name the files... Also working on itertools, collections and functools for sheet 2.
+
+Edit 2: Use this link https://github.com/gpetepg/python_tips

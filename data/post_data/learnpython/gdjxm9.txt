@@ -1,0 +1,23 @@
+The following code would return True:
+
+    a = 200
+    b = 200
+    a is b
+    > True
+
+But the following would return False:
+
+    a = 300
+    b = 300
+    a is b
+    > False
+
+Why is that? What is happening under the hood? I know the switch happens at 256 -> 257 which seems odd at first sight (why not 255 -> 256?).
+
+**EDIT:**
+
+Never mind, I found the answer. For those interested:
+
+>Python caches small integers, which are integers between -5 and 256. These numbers are used so frequently that it’s better for performance to already have these objects available. So these integers will be assigned at startup. Then, each time you refer to one, you’ll be referring to an object that already exists.
+
+[https://realpython.com/lessons/small-integer-caching/](https://realpython.com/lessons/small-integer-caching/)

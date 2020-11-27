@@ -1,0 +1,13 @@
+A six part series I put together on object-oriented programming in Python. I hope you find them useful:
+
+1) [Classes and Instances](https://www.youtube.com/watch?v=ZDa-Z5JzLYM)
+
+2) [Class Variables](https://www.youtube.com/watch?v=BJ-VvGyQxho)
+
+3) [classmethods and staticmethods](https://www.youtube.com/watch?v=rq8cL2XMM5M)
+
+4) [Inheritance - Creating Subclasses](https://www.youtube.com/watch?v=RSl87lqOXDE)
+
+5) [Special (Magic/Dunder) Methods](https://www.youtube.com/watch?v=3ohzBxoFHAY)
+
+6) [Property Decorators - Getters, Setters, and Deleters](https://www.youtube.com/watch?v=jCzT9XFZ5bw)

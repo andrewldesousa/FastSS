@@ -1,0 +1,19 @@
+Hi everyone!
+
+Just started learning how to code recently and bought the course on Udemy.
+
+I've been finding it really difficult to keep up, the author explains things really fast and gives me 20 new concepts every 20 minutes, if I decide to spend 2-3 hours learning, it's just too much information to soak in.
+
+I've made it through 60% of the course but I feel like I can't do much because I've been absorbing so much info, but I didn't get to do any exercises.
+
+Please let me know how to cope with this. Is there a website with really easy python exercises? Should I not worry about memorizing it all?
+
+**UPDATE: THANKS, EVERYONE! HERE'S WHAT I LEARNED:**
+
+1. Don't rely on the video alone, use the book.
+2. Don't rush it, if you didn't understand something, don't advance.
+3. Play with the code. When a new concept is introduced, play with it and explore many other possibilities.
+4. Take notes; Pretend you are teaching it to someone else.
+5. Search on youtube/google for more information about the topic you are learning about.
+6. Learn less and code more. The best way to learn is by practicing.
+7. Take breaks, have fun and stay hydrated!

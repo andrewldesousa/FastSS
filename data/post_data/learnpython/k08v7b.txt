@@ -1,0 +1,7 @@
+Holy Moley! I started playing around with building a mini-project using multiple files instead of one long file. Wait, let me back up...
+
+I just started Python about a year ago, self-taught, and have been actively building desktop apps for my company in the CMP Semiconductor field. They're efficient applications that my boss loves and have been able to make us some good $$$. But, my codes are over 10,000 lines long. And I knew there had to be a better way. 
+
+Fast forward to today where I built a main file, and put a class in another file with some basic math functions. Then in my main file I built a little GUI to solve simple math problems. (I LOVE PYSIMPLEGUI, a big shout out to u/MikeTheWatchGuy for all the work he does.) And I just imported the class into my main and called it as normal...and it works. Easy as pie. I couldn't believe it. I feel like I've just learned a super valuable piece of information that I had been missing out on. Milestone achieved. 
+
+Thanks for reading and sharing in my epiphany!

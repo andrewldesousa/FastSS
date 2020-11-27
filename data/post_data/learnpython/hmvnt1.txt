@@ -1,0 +1,29 @@
+Posting with mod's permission.
+
+---
+
+Hello!
+
+I recently updated my **Python re(gex)?** ebook. I had first released it at the beginning of last year (https://www.reddit.com/r/learnpython/comments/aevgbi/i_wrote_a_book_on_python_regular_expressions_it/).
+
+My initial motivation was to add **epub** format and separate out **third-party regex** module content into a separate chapter. An email exchange with a reader, a look at feedback from the past year and my own improvements as a writer resulted in a significant overhaul. It took me about 6 weeks to complete the revision instead of 1-2 weeks that I estimated. Sounds familiar right? I’m definitely pleased with the changes, but along the way I added a long list of TODOs that will probably need months of work. Future me is not going to be pleased.
+
+To get pdf/epub versions, use any of these links:
+
+* https://gumroad.com/l/py_regex
+* https://leanpub.com/py_regex
+
+As a bundle (Python/Ruby/JS regex and grep/sed/awk cli tools):
+
+* https://gumroad.com/l/regex
+* https://leanpub.com/b/regex
+
+I made **all my books free** at the end of March when the pandemic hit my country. The virus doesn’t seem to be going away anytime soon, so I’ll probably start charging again after I finish updating the Ruby and JS regex books, which will take me at least till end of July. You can still pay if you wish.
+
+You can read the *entire* book from the GitHub repo - https://github.com/learnbyexample/py_regular_expressions. The repo also contains the **code snippets** used in the book and a handy way to access all the **exercises** in a single file. You can also find the **solutions** there. 
+
+---
+
+I’d highly appreciate your feedback. That’s been a major motivating factor to keep writing as well as for improving the content.
+
+Happy learning :)

@@ -1,0 +1,41 @@
+I've been a senior level software engineer for over 10 years. I have a ton of experience with multiple languages. I've been doing a lot of hard stuff for a very long time. I asked a twitter question to a pretty well-known person in the area I work in the other day, and he got really huffy, assumed that I had no idea what I was doing, told me to not ever do what I was asking about, and told me to go find a different job because I'm not competent to do the one I'm at right now. Never even asked why I was trying to do things a certain way, and just assumed that I was a n00b causing trouble.
+
+&#x200B;
+
+It made me really fucking angry. And it also made me think about how we deal with people we don't know, make assumptions based on questions, and tend to talk shit to people who aren't a part of our in-circle. About how things that people have done for a long time tend to get easier and how we forget how much we didn't know when we were getting started.
+
+&#x200B;
+
+So, I'm taking all my anger at that person out on this sub. I'm going to spend all day tomorrow answering all the questions I possibly can on learnpython in the kindest way I can and with a mentoring attitude where I'll try to understand where you're coming from, what you're trying to achieve, what might be the best way to get to it, and maybe a little extra handholding along the way.
+
+&#x200B;
+
+Be the change you want to see, right?
+
+&#x200B;
+
+Ask me anything about python and anything related to python. I'll spend 12 hours tomorrow answering every question I can.
+
+&#x200B;
+
+&#x200B;
+
+EDIT: man, I was 50/50 on this post getting thrashed by the mods for being a rant. I'm so happy this is getting a lot of responses!
+
+&#x200B;
+
+First of all, thank you to all of you well-wishers encouraging me to not take it so hard. I do take it hard, and that's why I'm trying to resist and do something different with my frustration. To the person who said there needs to be more people like me in the world . . . thanks. That made my day.
+
+&#x200B;
+
+Here are some caveats about my approach: I am not a computer scientist. I don't come from that background. Many of my opinions are not orthodox. I spent the first 20 of my professional life as a classical violinist and music theory teacher. My first technology job was after I read a book on SQL, and my first 3 jobs were nothing but writing SQL. So a lot of my background has come from a data-centric place. It's nice that data is a big thing now! Over the last 13 years though, I've learned python and other languages mostly the hard way, but I've also done a ton of reading academic textbooks because that's how I grew up and learned music theory. So there's going to be some answers where I dive deep into computer science theory and practice and programming language design. Anything I say that isn't verbatim code is just one person's opinion. My word is not gospel. But it's what I have to offer, and I've thought about it a lot.
+
+&#x200B;
+
+I hope I can be really useful answering questions tomorrow and truly kind and helpful to everyone.
+
+&#x200B;
+
+&#x200B;
+
+EditEditEdkt: I changed my mind about being so hostile to the person who gilded me. Thank you kind person, for giving me an imaginary thing to put in my butt while I masturbate.

@@ -1,0 +1,11 @@
+Been learning python for about two months. Read a few books. I can now do every single exercise in python crash course without referencing the book and have even tweaked many of the exercise programs. But I’m beginning to feel that “imposter syndrome” I keep hearing about. 
+
+The problem I’m having is when it comes to breaking down a problem into single step by step problems. Even making a tic tax toe game is a little difficult for me right now. 
+
+From my own learning and research I’ve come to realize I may need to learn more on algorithms. 
+
+From what I understand an algorithm is simply a step by step series of instructions to solve a problem. That’s at least the best way I can sum up the idea in my head. Is this correct? I’m sure there’s more to it than that. Forgive my ignorance. Trying to teach myself everything in quarantine with. I experience. 
+
+If I’m correct in my understanding of algorithms and pinpointing what area I need to hone next, can anyone recommend any good books or even videos that can help me overcome this problem and get better at being able to break a complex idea or problem down or have a better understanding of algorithms. 
+
+Please try to keep in mind I am a beginner when recommending books. I have a solid foundation of the basic fundamentals of python. Lists, dicta, loops, classes and the like but am trying to figure out how to use and apply that knowledge better.

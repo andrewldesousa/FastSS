@@ -1,0 +1,52 @@
+It's very basic and will only work on non js based sites
+
+This is a great introduction, and should be enough to play around and make work for you.
+
+Dependecies:
+
+    pip install requests bs4
+
+Template
+
+    # dependencies
+    import requests
+    from bs4 import BeautifulSoup
+
+    # main url to scrape
+    MAIN_URL = ""
+
+    # get the html and convert to soup.
+    request = requests.get(MAIN_URL)
+    soup = BeautifulSoup(request.content, 'html.parser')
+
+    # find the main element for each item
+    all_items = soup.find_all("li", {"class": "item-list-class"})
+
+    # empty dictionary to store data, could be a list of anything. i just like dicts
+    all_data = {}
+
+    # initialize key for dict
+    count = 0
+
+    # loop through all_items
+    for item in all_items:
+        # get specific fields
+        item_name = item.find("h2", {"class": "item-name-class"})
+        item_url = item.find("a", {"class": "item-link-class"})
+	
+        # save to dict
+        all_data[count] = {
+            # get the text
+            "item_name": item_name.get_text(),
+            # get a specific attribute
+            "item_url": item_url.attrs["href"]
+        }
+	
+        # increment dict key
+        count += 1
+	
+    # do whats needed with data
+    print(all_data)
+	
+
+I will try my best to answer any questions or problems you may come across, good luck and have fun. Web scraping can be so fun :)

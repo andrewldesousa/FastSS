@@ -1,0 +1,3 @@
+Trying to build a solid sample size of stuff to learn
+
+EDIT: What I’ve been seeing a good amount of is besides writing clean, pythonic code, learning and understanding how to use data structures is what made a good handful of people better programmers. Interesting.

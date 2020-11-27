@@ -1,0 +1,5 @@
+Hi Reddit! I'll be live streaming myself working on a few different text-based games in Python on Monday, 5/27 at 6pm Pacific:
+
+https://www.twitch.tv/alsweigart/
+
+I'm creating a collection of short, complete, text-based Python games. The idea is to create several examples for beginner/intermediate programmers to look at to see how programming concepts come together into a complete program (while still being small enough to understand). The current collection is on GitHub at: https://github.com/asweigart/PythonStdioGames/tree/master/src/

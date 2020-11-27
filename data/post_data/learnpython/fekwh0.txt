@@ -1,0 +1,9 @@
+Hi all
+
+This is my first real project that I did. I made the program to help my friend in his workplace. He would have to parse text for YouTube links and intervals (and jpgs), download the whole video, trim it and repeat for the 3-5 others that day. This program accomplishes all of that and can also download full length videos (don't supply a valid interval). The frontend is build using flask.
+
+All you need to get it to work is download, install the dependencies, install ffmpeg and then run the webserver.
+
+[Link to code on GitHub](https://github.com/DinRigtigeFar/yt-interval)
+
+If you have any constructive criticism or ideas for future features please don't hold back.

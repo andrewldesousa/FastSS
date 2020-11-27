@@ -1,0 +1,5 @@
+Useful for any beginners over at www.pythonsandladders.com. A good number of questions to go through, some perhaps a little challenging even for seasoned problem solvers.
+
+The whole thing runs in the browser through Skulpt, using JavaScript to emulate Python 2.6. 
+
+Happy coding!

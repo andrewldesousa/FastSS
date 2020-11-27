@@ -1,0 +1,9 @@
+Hello guys! I've been learning Python for more than 3 months now. Lately I've found this amazing tool called "[Python Tutor](http://pythontutor.com/)" which visualizes codes step by step. It helped me understand the problems with passing mutable objects as parameters and re-assignment of names.
+
+&#x200B;
+
+I was super ecstatic when I found out how useful Python Tutor is. I am sure there are other similar tools (not necessarily about code flow visualization) that could benefit beginners and intermediate programmers alike. Is there any moment like "I wish I had found this tool earlier!" that you would like to share?
+
+&#x200B;
+
+Thank you and happy programming!

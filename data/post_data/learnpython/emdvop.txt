@@ -1,0 +1,9 @@
+After some research I figured out that someone already came up with this idea (Great minds think alike!), but he took slightly different approach to this, and his is more advanced I guess. I just wanted to make something for fun, so don't expect this to be even slightly as good as his. Even if I tried it wouldn't be half as good. You can find his attempt at this [here](https://www.reddit.com/r/learnpython/comments/ef072o/im_working_on_a_cli_application_to_change_your/).
+
+\---------------------------------------------------------------------------------------------
+
+Anyway mine is windows only, and you can find the code [here](https://gist.github.com/glof2/b490f5df1961d5d471271ae930aee316).
+
+Any adviced would be appreciated.
+
+Thanks in advance!

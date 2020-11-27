@@ -1,0 +1,55 @@
+Was recently helping out a family member of mine, with their programming assignment. Kid is in college, some intro to cs type class that involved python. I don't know why it bothered me, but seeing how slow he navigated through the file / docs in general - I couldn't help myself. i showed him a handful of easy keyboard shortcuts, that I suppose Ive just incorrectly assumed most people know about them- but apparently not: after a little practice, he's told me it was some of the most helpful advice ive given him. sometimes the little things can really make a difference: like - quickly reaching the start/end of your line. quickly moving things around in your file, by highlighting to copy paste..etc...I typically am of the belief a mouse should rarely be used. that's not only brutally inefficient, it (for me at least) would cramp the hell out of my hands if i was using a mouse all day. to clarify- i say that as it pertains to writing code. obviously using a mouse to open different browsers or diff apps is a reasonable time to use it.    
+ 
+experienced programmers: I imagine you use these along with others, so this isn't so much directed at you: but feel free to chime in, and add anything you think might be useful. figured this can at least help some people out:   
+  
+should be noted these are done on my windows computer. not all will be doable on mac: and might require diff commands  
+  
+Ill start with the `Home` and `End` keys that apparently few people seem to actually know about:  
+  
+`Home` moves your curser to the start of the line  
+`End` moves curser to the end of the line its on  
+`ctrl` + `Home` moves your curser to start of doc | `ctrl` + `End` moves your cursor to the end  
+   
+`shift` + `Home` will select/highlight everything on the line cursor is on up to the curser  
+`shift` + `End` will select/highlight everything on line after the curser  
+if you wanted to quickly highlight a line to copy: you press `home` to get to start of the line: then press    
+`shift+End` to highlight the line. (you could also do the reverse...where you press `End` followed by
+`shift+Home`)    
+    
+`ctrl+shift+End` : wherever my cursor is, everything after it in the doc gets selected/highlighted  
+`ctrl+shift+Home` will highlight everything in the doc up to cursor  
+  
+`ctrl+left/right arrow` to move your 'jump' your cursor to the previous/next word on the line. Ex: you want to edit the 3th word on a line. hit `Home` then `control+rightarrow`to quickly get there    
+  
+`ctrl+shift+ left/right arrow` to select the whole word. if you wished to select multiple words- keep ctrl+shift  held and continue to press left/right arrow to add  
+`shift+ up/down arrows` to select lines either above or below to include - (useful if you want to move those lines elsewhere with a ctrl+x to cut/paste. or just copy/paste)   
+  
+`ctrl+backspace` - to delete word  (cursor starts at end of word)
+`ctrl + Delete` -  to delete word (cursor at start of word) can keep pressing backspace/delete in both ex to delete more than one word.  
+If you wish to delete full line can - highlight the line + del [ hit home, then shift+end then delete]  
+    
+others:  
+`ctrl` + `/` : will comment/uncomment line the curser is on. you can highlight however many lines you wish, and it will comment/uncomment all selected  
+`ctrl+n` : new file   
+`ctrl+o` : open file  
+`ctrl+z` : undo  
+`ctrl+y` : redo  
+`ctrl+f` : find certain word  
+`tab` : indent to the right  (can be multiple lines if multiple lines are highlighted)  
+ `shift+tab` : 'unindent' or indent to the left  
+`ctrl+c` : copy | `ctrl+x` cut  --> `ctrl+v` :paste  
+`ctrl+a` select ALL ..selects everything  
+
+edit:  will add a few more upon reading comments:    
+ the same indent/unindent can be done with `ctrl`+`]` to indent and `ctrl`+`[` to unindent  
+some shortcuts can be done in more than one way, and are more matter of preference and what feels more natural. its a perfectly fine alternative  
+  
+additionally- `ctrl` + `H` :Find and Replace 
+
+can be another great one. rather than simply hit ctrl+f to find a word...find and replace not only locates the word. but offers the ability to replace that word with a different word of your choice. you can choose to replace only one instance, specify youd like to replace the next as well, or you can replace all. (maybe you spelled something wrong, or updated a name, and instead of scrolling through the entire file, to locate each instance, you simply hit CTRL+H to find the word you wish to replace, and enter the word you want to replace it with.  
+its worth noting, this can get more complex with the inclusion of `regex`, so ill leave that out of this post, but any beginner who's interested in learning about regex, its incredibly helpful to know [this is one ex: that explains it](https://docs.python.org/3/library/re.html) but there are countless others. don't be discouraged when you see it. few people I know actually memorize every element of regex -  rather develop a familiarity, recognize common patterns, but don't feel discouraged if you cant memorize it all...its extremely unique to what most of youve likely seen - b4 everybody jumps in at me lol- im strictly addressing begginers here who could easily have never seen regex before- by no means feel obligated to learn it... but it quite powerful so at some point it certainly can be quite helpful. combined with CTRL + H can do some cool things  
+  
+lastly: [heres another nice reply](https://www.reddit.com/r/learnpython/comments/gky9cs/to_beginners_or_anyone_honestly_here_are_some/fqvgoz8/)  
+now you should all know how to format your code in reddit lol. 
+
+im sure there are others Im not thinking about. but for beginners I figured this may be helpful. feel free to add other shortcuts you like/find useful

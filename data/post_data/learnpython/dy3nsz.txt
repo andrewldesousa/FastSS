@@ -1,0 +1,13 @@
+Hello, 
+
+I've got a few python scripts that I've written to automate some of my work. My boss found out... 
+
+Boss isn't mad surprisingly! But boss wants me to allow others on our team to use the script so they can do the tasks too. 
+
+My problem is this: my script lives locally on my computer and I run the script through pycharm on my computer when I want to do these tasks. I have no idea how or where to put this script that allows others to use it, AND takes user input (just a couple variables). It needs to be presented in a way that doesn't confuse non-programmers.
+
+Also need to mention that my script works in conjunction with a separate app called chromedriver (IIRC). Its an app that has to be running while I run my script: it allows remote navigation of a website i.e. the computer clicks buttons/links instead of me.
+
+Any advice?
+
+EDIT: not that it's important but I'm finding it curious a lot of comments are calling me 'he'. I'm a lady 😁

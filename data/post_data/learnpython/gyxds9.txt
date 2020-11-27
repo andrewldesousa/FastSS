@@ -1,0 +1,1 @@
+I started learning Python about 6 weeks ago and have absolutely no background in programming or computer science. I would like to write a simple program to track flight price fluctuations as it's something I'm interested in and have read in quite a few places that actually writing code can be more beneficial than just watching endless tutorials.

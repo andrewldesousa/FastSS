@@ -1,0 +1,9 @@
+I dedicated my last week learning about data viz in python. I used and learned matplotlib, seaborn, pyplot for creating graphs and doing data analyses using pandas.
+
+My question is how are these things usually applied in Data Analysts job? Do they just create 1 python script per graph? Do they make functions for different types of graphs and export it on their presentations?
+
+I'm asking because I've been in the reports development field for the past 5 years but sadly I've been only using pure SQL for data processing, SSIS/Informatica for ETL, then SSRS for reports and Excel for graphs.
+
+i've never applied python on these apart from some automations here and there. I hope I can get feedback from people who worked in Data Analytics positions before and tell me how are these things applied in their day to day job.
+
+Thank you!

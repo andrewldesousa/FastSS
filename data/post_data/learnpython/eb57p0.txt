@@ -1,0 +1,5 @@
+When I look at other peoples code, I frequently see
+
+    if __name__ == '__main__':
+
+What exactly does this do and mean?

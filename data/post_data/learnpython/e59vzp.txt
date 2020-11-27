@@ -1,0 +1,11 @@
+You can use this code to sign up for the Udemy "Automate the Boring Stuff with Python" course for free:
+
+https://www.udemy.com/course/automate/?couponCode=DEC2019FREE
+
+During the month of December, you can also use DEC2019 to sign up for $14 instead of the usual $50: https://www.udemy.com/course/automate/?couponCode=DEC2019
+
+Due to the way Udemy now does promotions, I'm limited in how many discount codes I can make each month, so there's no way for me to make more after the 72 hour period, which ends roughly Wednesday night 7pm Pacific time.
+
+I'll have the second edition of the book in HTML format online, uh, soon. I've had some delays getting it ready. The online course follows the 1st edition, and I won't be able to update it until probably mid-2020. I'll write up a blog post about what exactly is new in the 2nd edition soon too. Go ahead and get started: the Udemy course is still useful.
+
+The 1st edition is free online under a Creative Commons license, but if you want to buy a print copy of the book, I recommend getting it directly from the publisher instead of Amazon; you get DRM-free ebook copies in PDF, Kindle, and epub formats for free with the print book: https://nostarch.com/automatestuff2

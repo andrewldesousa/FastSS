@@ -1,0 +1,7 @@
+https://adventofcode.com/
+
+Advent of Code is an Advent calendar of small programming puzzles for a variety of skill sets and skill levels that can be solved in any programming language you like.
+
+These puzzles are a great way to practice your Python and problem solving skills.
+
+Edit: added description from AoC site.

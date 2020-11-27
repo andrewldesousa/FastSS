@@ -1,0 +1,1 @@
+Hello everyone. I completed the beginning course of Python and Tkinter and have done some projects as well. But now I want to learn data science and go into Machine Learning. I don't know what to learn next. So, please help me.

@@ -1,0 +1,22 @@
+I’ve been asking myself this very question for the last eight months. It likes to creep up on me when I’m alone in my room, or in social situations when people ask the dreaded, “so… what do you do?”
+
+Can I become a programmer? It’s a scary question!
+
+**The short answer is yes, you can.**
+
+The long answer is that this isn’t a very good question. It is binary and doesn’t open up a whole lot of possibilities. It has only one of two possible answers:
+
+Yes, you will succeed  
+or  
+No, you will fail.
+
+What helps me in stressful moments like these is to take a step back and to consider three other, more open-ended questions:
+
+1. **What do I love about programming?**  
+I love how a piece of software is a building of thought. The clearer I am in my thinking, the better the program. When I code, I get to work on my mind, and that’s just really fun. (Is this weird to say?)
+2. **How can I become a better programmer?**  
+At the beginning, it was about putting in the time and completing the tutorials. Then, it was about fixing bugs and adding features. Nowadays, it is about UX and learning a new programming language. As Obama says, “If you keep it about the work, you’ll always have a path. There’s always something to be done."
+3. **What do I care about?**  
+I like drawing, so I am building a drawing app. Surprisingly, once you step outside of programming, there are actually a lot of problems that can be solved with technology. It’s pretty mind-blowing how much opportunity there is once you look.
+
+Trying to answer these questions has helped me tremendously. My answers have changed over time - and that’s a good thing. It means I’m progressing. For whatever stage you are at, I hope these questions help you on your journey. And don’t quit.

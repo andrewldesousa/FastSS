@@ -1,0 +1,77 @@
+Hey there, I'm a self-taught noob that likes to embark on projects way ahead of my limited understanding, generally cos I feel they'll make my life easier.
+
+So, I'm a DnD Dungeon Master, and I'm trash atbuilding balanced combat encounters. So I thought, hey, why not code a "simple" command line program that calculates the odds of victory or defeat for my players, roughly.
+
+Because, you know, apparently they don't enjoy dying. Weirdos.
+
+Thing is, after writing half of the program entirely out of independent functions, I realised classes \*exist\*, so I attempted to start a rewrite.
+
+Now, uh...I tried to automate it, and browsing stackoverflow has only confused me, so, beware my code and weep:
+
+&#x200B;
+
+`class Character:`
+
+`def __init__(self, name,isplayer,weapons_min,weapons_max,health,armor,spell_min,spell_max,speed):`
+
+[`self.name`](https://self.name) `= name`
+
+`self.isplayer = isplayer`
+
+`self.weapons_min=weapons_min`
+
+`self.weapons_max=weapons_max`
+
+`self.health=health`
+
+`self.armor=armor`
+
+`self.spell_min=spell_min`
+
+`self.spell_max=spell_max`
+
+`self.speed=speed`
+
+`total_combatants=input(">>>>>Please enter the total number of combatants on this battle")`
+
+`print("You will now be asked to enter all the details for each character")`
+
+`print("These will include the name, player status, minimum and maximum damage values, health, armor, and speed")`
+
+`print("Please have these at the ready")`
+
+&#x200B;
+
+`for i in range(total_combatants):`
+
+`print("Now serving Character Number:")`
+
+`print("#############"+i+"#############")`
+
+`new_name=str(input("Enter the name of the Character"))`
+
+`new_isplayer=bool(input("Enter the player status of the Character, True for PC, False for NPC"))`
+
+`new_weapons_min=int(input("Enter the minimum weapon damage on a hit of the Character"))`
+
+`new_weapons_max=int(input("Enter the maximum weapon damage on a hit of the Character"))`
+
+`new_health=int(input("Enter the health of the Character"))`
+
+`new_armor=int(input("Enter the AC value of the Character"))`
+
+`new_spell_min=int(input("Enter the minimum spell damage of the Character"))`
+
+`new_spell_max=int(input("Enter the maximum spell damage of the Character"))`
+
+`new_speed=int(input("Enter the speed of the Character"))`
+
+&#x200B;
+
+As you can see, I have literally no idea how to end the for loop so that it actually does what I want it to, could you lend a hand, please?
+
+Thanks for reading, if you did, even if you can't help :)
+
+EDIT:  Hadn’t explained myself clearly, sorry. Though my basic knowledge is...shaky, the idea was to store the name of each character and map it to each of their other attributes , so that I could later easily call on them for number-crunching. I don’t think pickle is a solution here, but it’s the only one i have had some experience with.
+
+EDIT 2: Thanks y’all! You’ve given me quite a lot of things to try out, I’ll be having a lot of fun with your suggestions! I hope I can help in turn soon ^.^

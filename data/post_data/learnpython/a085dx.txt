@@ -1,0 +1,7 @@
+I just am feeling that buzz from  solving a problem that will save our small business potentially hundreds of hours a year.  We had multiple csv files that had info linked by an ID column that we had to join into a new sheet by hand every month or so.  Boring and time consuming. 
+
+Now all we do is select the source files via a gui and done.  It spits out the newly joined csv.
+
+Simple for some but this is one of my first code tasks that I really understood my approach from the start,   pumped out the code and it all just worked. 
+
+Very pleased.  Buzzed

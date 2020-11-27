@@ -1,0 +1,13 @@
+It's so, so basic and probably incredibly inefficient - but I don't care! I'm ecstatic :D 
+
+I want to look at my spending habits with Amazon, I thought they would just provide me with a CSV of my historic order, and they do - but only for the US site (I'm British).
+
+So I thought I would make web scraper that made a CSV file for me. I haven't learned how to make a web scraper yet - as I'm not familiar with BeautifulSoup. 
+
+However, I did realise that part of the process would be flicking through Amazon Order pages so I thought I should create something that spits out a URL to a page.
+
+At some point, I intend to make this automated so that it cycles through all of the pages of a given year. As of right now, the user inputs a year and what page they would like to view and the program opens that URL in a new tab :).
+
+Thanks very much to everyone here :)
+
+[Here is the code!! (GitHub Gist Link)](https://gist.github.com/TheAlmightyDada/1b63537acad1d7c90160e8b6ecec9473)

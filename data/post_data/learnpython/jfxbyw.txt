@@ -1,0 +1,3 @@
+Does anyone know where you can find open source projects to contribute to quickly and easily. I have never contributed to any open source projects before, so this will be my first time. I also probably only have a years worth of python experience, so it can't be too advanced/complex.
+
+Any help would be greatly appreciated. Thanks

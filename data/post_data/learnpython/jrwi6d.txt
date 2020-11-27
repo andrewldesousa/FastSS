@@ -1,0 +1,37 @@
+Holy shit, that was a wild ride.
+
+So, I've just completed my first job on upwork and, jesus god, was it harder than I thought.  The actual job wasn't very difficult although I totally suck at programming so it took way longer than it should have.  I learn an absolute ton from it and wanted to share it with all you guys as a way of paying back for all the good advice I've been given.
+
+**The job**
+
+The job was to scrape financial data from a bunch of websites which the client had already compiled.  The data was structured as an excel spreadsheet with hyperlinks embedded in text.
+
+**Initial thought process**
+
+* Cycle through the spreadsheet, parse all hyperlinks into a list for later.
+
+* As all the data is from the same website, I'm going to scrape one page and get all the relevant data, then loop over it for the rest.
+
+* I'm going to add these values as I go along into excel through Python.
+
+* This will be fairly easy.
+
+**What actually happened**
+
+* I spent about 30 minutes trying this in vscode, setting up a virtual environment and after running my program a few times, I realise I couldn't see shit.  At this point, I got annoyed and transitioned into a Jupyter Notebook.  This made seeing what I was doing a lot easier and I'd recommend any data-centric projects to be done in Juypter.
+
+* I spent about an hour having trouble with list comprehension and loops.  Turns out if you run a loop within a loop, you're going to get it running twice and I wanted to run two loops parallel to each other.  I solved this by using `for x,y in zip(list1, list2):`
+
+* I've always said I hated parsing text because everything seems so complex.  Today, I overcame my fear using `' '.join`, `split()`, and `strip()`.  This probably isn't much to a lot of people, although it all came together for me today and it's something I'm really happy with.
+
+* When it came to webscraping, I got really lazy and paid the price for it.  I used list slicing on elements incorrectly and ended up having it so it worked for my sample size (first two websites in list), although when it got to the latter ones, it started to do funky stuff so I had to start all over again.
+
+* Before that, I deleted all my code to start again because I thought I was parsing data incorrectly.  Turns out it was just the unicode symbols for Euro signs :( Check it's actually wrong before rage-quitting.
+
+* Sometimes, plans don't go the way you want.  I was originally hoping to fire off a load of numbers from juypter into excel in this beautiful streamlined vision.  After spending so much time parsing text from beautifulsoup, I decided to give up on that dream for today and, instead, think outside the box.  I ended up printing data to a text file, importing it via excel, cleaning it in excel (EDIT: I say "clean", it was deleting some punctuation marks and unwanted letters from the numbers), and then copy and pasting it.  I think it's also only fair for me to mention this took about 40 minutes - I spent so long printing formatted output in Jupyter and really enjoying it that I forgot about the task.  I spent a while getting the data to save horizontally with the right delimiter so I could copy and paste it into the clients spreadsheet.
+
+* There's a lot of stop-start, especially as a non-professional, self taught person which feels fairly natural.  I think if you know what you want to do, you can Google through it with some persistence but if you can't say how you'd approach the problem it's infinitely harder (like when I wanted to make my streamline dream) so you might have to just give up on a fancy idea and stick to what you know sometimes.
+
+Hope you enjoyed reading!
+
+EDIT: Thank you for all the awards! Really kind of you.

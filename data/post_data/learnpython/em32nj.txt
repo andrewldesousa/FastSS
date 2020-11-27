@@ -1,0 +1,17 @@
+I spent a solid day working on this just to practice.
+
+Here's the [source code](https://pastebin.com/Dfg5dzWd) compatible with python 3.8+. The third-party libraries, [bs4](https://pypi.org/project/bs4/), [requests](https://pypi.org/project/requests/), and [lxml](https://pypi.org/project/lxml/), are required to run the source code.
+
+There's a few improvements and implementations I would like to make, but I think it's at a presentable stage. Feel free to leave a comment or suggestion on this project.
+
+EDIT: I optimized various parts of the code and added a few features.
+
+* Added commands. You must enter a `/` followed by the command. You can get a list of commands with `Hangman.commands.__doc__`.
+
+* Added `prompt_vid` parameter to the `main()` function. This will prompt the player with the option to open the related video in the default web browser after a game. `prompt_vid` is set to `False`  by default.
+
+* Added `comment_len` parameter to the `main()` function. This allows you to control the length of the comments to avoid lengthy comments. `comment_len` is set to `(5, 50)` by default.
+
+* Made various tweaks to the code's logic for better optimization and to be made compatible with the new features.
+
+Here's the [source code for the updated version](https://pastebin.com/G8U5Y1EG).

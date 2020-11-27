@@ -1,0 +1,5 @@
+Python is great, but it's not used everywhere. Web dev is Javascript. Embedded C/C++. (by default at least)
+
+But! Don't be afraid to learn other language.  Just how Blue is more Blue when it's next to Red. And Hot is more Hot when next to Cold, that's how you will know better Python when next to Javascript or any other language. Just keep on learning.
+
+Good luck!

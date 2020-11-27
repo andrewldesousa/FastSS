@@ -1,0 +1,7 @@
+I've been trying to learn Python for almost 3 years now. I've been off and on trying different things with little success. I'd mostly given up.
+
+This past week at work, they changed some of the data I use, I'm an Accounting Analyst and we get all of our banking data in an excel file. They decided to change it into this convoluted workbook that had about 30 columns of data we didn't need. I figured I'd give Python on last chance and see what I could do.
+
+I proceeded to build a script that takes all of the data into a dataframe, strips out what I don't need, creates columns for missing columns, adds any missing value and saves to a new workbook, all in 21.73 seconds. I finally did it. No one really seems to care. I saved my coworkers about 2.5-3 hours of work a month. I just feel really good and I had to share with someone.
+
+Update: Thank you everyone for the encouragement. I really do appreciate. I've now built it out to include a nice GUI that allows me to choose the destination and name the file. Very happy with it and my boss is, as well.

@@ -1,0 +1,11 @@
+Hi everyone,
+
+I just finished my first Python data analysis project, and being a total beginner, I could really use some other perspectives as to the quality of my final product. I plan on building a portfolio of similar projects and using it for applying to social science research assistant jobs where some programming and analysis ability is highly preferred. Since I am entirely self-taught, I need some concrete examples of what I can do to share with potential employers.
+
+With that said, while I'm sure there are areas that could be improved, would my project be worth sharing with some edits? Or is it actually just a total flaming trash heap that should be scrapped entirely? Positive critique and helpful suggestions appreciated!
+
+[Project](https://github.com/Skye80/Data-Analysis-Portfolio/blob/master/Analysis%20of%20Credibly%20Accused%20Clergy%20Data.ipynb)
+
+Edit: Wow, I did *not* expect to wake up to so many comments and upvotes! I really needed this boost, to be honest. I'm so grateful for everyone's kindness and suggestions, and I'm definitely going to go back and try and tweak some things! I hope I can pay it forward one day, but for now, to fellow noobs who are trying to set up their first project - just go do it! I basically just forced myself to create something after learning the basics, and it really helps the learning process to break things down and figure out how they work outside of a guided tutorial. Keep coding!
+
+Edit 2: I've uploaded a new version of the project since this was posted, taking into account some of the suggestions everyone has made. It's still not perfect, but I think it's time to move onto learning with new projects.

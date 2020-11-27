@@ -1,0 +1,7 @@
+Hi, as a new programmer i often find myself browsing  r/ learnpython and stackexhange and whilst im very thankful of the feedback and help ive been given, i can't help but notice things, especially on stackechange where this phenomena seems most rampant. 
+
+&#x200B;
+
+What does it mean for your code to be unpythonic? and why do certain individuals care so much?
+
+forgive me, i may be a beginner but is all code not equal? why should i preference "pythonic" code to unpyhtonic code if it all does the same thing. i have seen people getting scolded for the simple reason their code isnt, pythonic, so whats the deal with this whole thing?

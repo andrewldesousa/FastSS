@@ -1,0 +1,17 @@
+School's out, but that doesn't mean you have to stop learning. The online video course from the author of "Automate the Boring Stuff with Python" (that's me) is free to sign up for this week. This sign up will give you life time access to the course. Just use the following link:
+
+https://www.udemy.com/automate/?couponCode=SCHOOLS_OUT2
+
+This course is made for complete beginners who have no experience programming. It's "programming for office workers" because it skips computer science and teaches you how to do practical tasks: web scraping, updating Excel spreadsheets, parsing PDFs and Word documents, sending out automated email and text notifications, controlling the mouse and keyboard, and more. If you're an experienced programming, you can skip the first half (which covers basic programming concepts) and directly learn about several useful modules for Python.
+
+(This code expires on June14th. Previously I'd give out codes to folks who asked me after the expiration, but it turns into a logistical headache to keep making coupons each time someone asked, so the deadline is firm.)
+
+If you'd like to support me by using an affiliate code (or encourage yourself to finish the course since you put money down on it), you can also use one of these links to pay what you like: (MODS: if this is too spammy, I can take these links down) (EDIT: Udemy changed their promotion scheme. You'll have to use this new LOWESTPRICE code, which I've set to the lowest allowed. It's $14 now, but that might change in the future.)
+
+* https://www.udemy.com/course/automate/?couponCode=LOWESTPRICE
+
+This online course covers most, but not quite everything, in the Automate the Boring Stuff with Python book, which is freely available online under a Creative Commons license. You can read it at: https://automatetheboringstuff.com/ (The book has a few more examples, and also covers programmatically creating/editing image files, for example).
+
+If you like the course (or don't like it), please remember to rate it.
+
+Good luck on your programming journey!

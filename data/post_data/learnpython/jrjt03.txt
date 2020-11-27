@@ -1,0 +1,9 @@
+Hello. I want to mentor someone who is struggling as a beginner.
+
+I have graduated as a software engineer, now working in gamedev. I've taught for a few years in my local university (SQL + database design) and enjoyed working with freshmen.
+
+I want to guide someone who already can write few lines of code, but struggle with more. It is much easier to learn when you can just ask a tutor, or when your code is frequently reviewed. I can help with Python fundamentals - data types, functions, loops, classes, basic program structure, etc. We'll do voice call with screen sharing as well.
+
+It's free, no strings attached. Downside: English is not my native language, my speech is clumsy, my grammar can be weird. If it is ok with you, PM me your background, needs and goals (including some of your recent code will help). You can also find me in Telegram - @wearethed. 
+
+*UPD:* Please give me some time to answer and sorry for delays, there are a lot of messages already! I might not be able to answer everyone.

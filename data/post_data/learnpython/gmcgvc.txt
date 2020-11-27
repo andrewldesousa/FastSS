@@ -1,0 +1,106 @@
+I've been learning python for the past several weeks, and I'm working on creating an FTP program using PyQt. I was struggling understanding the vocabulary so I just spent the past 1.5 hours rewriting down the terms trying to understand them. Everything just clicked and I think I finally understand how OOP works.
+
+**EDIT:** Lots of people where asking how I studied. I'm working on writing down all of my notes Understanding the code is important but I think if you can't explain the terms or what you're coding. It will only hold you back.
+
+**EDIT 2:** Below are the vocabulary terms, I've been trying to memorize. I've been trying to use these terms to explain to myself how my code works. This has been helping me "connect the dots" I have some examples below.
+
+EDIT 3:
+
+Okay this was actually a lot fucking harder than I thought it would be. If the definitions or code needs to be corrected. **PLEASE LET ME KNOW I DON'T WANT TO SPREAD INCORRECT INFORMATION!!**
+
+&#x200B;
+
+* byte code -  representation of the python program in the interpreter
+* complex numbers - extension of the familiar number system which all numbers are expressed as real and imaginary
+* decorator - A function that modifies another function. Return value is a callable object
+* dictionary - A python datatype composed of keys + values. Can be a variety of data types
+* duck typing - object properties determine what it is.
+* first class object - Object that can be created dynamically, stored in a variable, passed to a function, returned as a result (ex: variables, lists)
+* greedy regular expressions - Regular expressions that match the longest string possible, \* + ? Counterparts are \*? +? ?? these are non-greedy (shortest string)
+* hash - number used to relate objects for storage in a hash table.
+* hash table - An object that maps keys to values
+* hashable - An object is hashable if it implements hash.
+* list - A series of values that can be changed
+* tuple - similar to a list. However this is a sequence of values that cannot be changed
+* nested scope - Where a function inside a function, can refer to values in the outer function.
+
+TIME FOR THE SUPER IMPORTANT ONES:
+
+* **Immutable Object** \- An object with a fixed value. Immutable objects cannot be altered. A new object has to be created if a different value has to be stored. ex: tuple
+* **Mutable  Object** \- An object that can be changed after it is created
+* **Attribute** \- Values associated with an individual object, accessed using dot syntax. Ex: a.x means fetch the 'x' attribute from the 'a' object. **Can be also called properties**. Accessible though object creation.
+* **Functions** \- A reusable block of code written to preform a single related action. A block of code written to do one thing.
+* **Classes -** Define the general behavior objects can have. A template for creating user defined objects.
+   * **Instantiation** \- Making of an object from a class
+   * **Instance** \- Creation of an object from a class.
+   * **Object** \- Any data with attributes + values, and defined behavior (methods)
+      * *From my research An* ***Instance*** *and an* ***Object*** *can be referred to as the same thing, these words can be used interchangeably. If someone has a clearer explanation, please feel free to comment.*
+   * **Class attributes** \- Variables owned by a class and shared by all instances of a class.
+   * **Instance attributes** \- Attributes that are owned by once specific instance of a class and not shared between instances
+   * **Methods** \- Functions that "live" inside of a class. The functions work the same as normal functions. They are just called methods to differentiate them from functions that don't "live" inside of a class.
+   * **\_\_init\_\_** \- is a method (function that lives inside of a class) that runs when an instance is created. It is used to create instance variables.
+   * **self** \-  'self' is nothing special, it is a word used to reference the object the  class is assigned to. when you create instance variables with **init** or other methods. self is passed to connect the methods to the object. Also prefixing variables with self, allows every method in the class to access the variable, and any instance(object) created from the class can access the variable.
+* Classes -> Blueprint, Instances -> Things that can be made
+* **super()** \- Helps python make connections between parent and child classes.
+   * Classes can inherit from other classes
+* **Multiple Inheritance** \- When a class inherits the characteristics of more than one class
+   * This  creates the famous diamond problem AKA "The Deadly Diamond of Death"  (sounds way cooler tbh). If Class D inherits from B and C, in what order  does the class inherit.
+
+A
+
+/          \\
+
+B            C
+
+\\            /
+
+D
+
+* Method Resolution Order (MRO) - Looks to solve this problem, used primarily to  determine the order in which methods(functions apart of classes) should  be inherited in the presence of multiple inheritance.
+* Python uses the [C3 Linearization Algorithm](https://en.wikipedia.org/wiki/C3_linearization) for MRO - This algorthm is difficult to understand. I think python provides a built in function to determine what methods are inherited first.
+
+&#x200B;
+
+**I CAN USE DEFINITIONS ALL DAY LONG BUT LETS TRY TO VISUALIZE EVERYTHING**
+
+&#x200B;
+
+    class cat():
+    '''
+    This is a class attribute(property), it can be accessed by all methods inside  the class by invoking the class name followed by the property ex: class.cat
+    We can define class properties that will effect all the methods(functions)     inside the class
+    '''
+        breed = 'calico' 
+    
+        '''init function used to create instance(object) variables.'''
+        def __init__(self, name, age):
+        
+    '''we preface self with a variable name so every method in the class can    access the variable, and any instance(object) created form the class can access the variable.'''
+            self.name = name 
+            self.age = age 
+    
+    
+     
+        def sit(self):
+    '''We're calling a instance variable defined in another method'''
+            print(self.name.title() + ' Likes to sit on the table')
+    
+    
+        def cat_type(self):
+     '''We're calling a instance variable defined in another method and calling a class attribute'''
+            print('My cat is ' + self.age + ' years old and is a ' + cat.breed)
+    
+    
+    '''This creates an instance(object) and defines instance variables self.name='Max', self.age='6'. Instance variables are unique to that instance. We're instantiating(creating) the my_cat object from the cat class'''
+    
+    my_cat = cat('Max', '6') 
+    
+    '''This creates a different instance(object) and defines new instance variables'''
+    
+    another_cat = cat('Sophie', '8') 
+    
+    '''Here we're looking at the sit attribute associated with the object my.cat'''
+    my_cat.sit()
+    
+    '''Here we're looking at the cat_type attribute associated with the object another_cat'''
+    another_cat.cat_type() 

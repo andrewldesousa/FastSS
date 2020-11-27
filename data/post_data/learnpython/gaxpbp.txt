@@ -1,0 +1,1 @@
+I want to display data in a more aesthetically pleasing way. Are there libraries that offer this? I find MatPlotLib potentially a bit dull for some audiences.

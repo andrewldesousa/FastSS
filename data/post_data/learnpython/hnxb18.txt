@@ -1,0 +1,13 @@
+Hello everyone!
+
+I just wanted to share this project i made, its not my first programming project or python project whatsoever, but it is indeed the first one i didnt depended much on google or a video tutorial so that for me its a great advance.
+
+&#x200B;
+
+The project is also my first on a github repository!
+
+ [https://github.com/mexicanlefty/Python-Calculator](https://github.com/mexicanlefty/Python-Calculator) 
+
+&#x200B;
+
+Please take a look and test it, in case you can provide any feedback it would be even better, it doesnt matter if you guys want to be very critical, i dont mind i want to keep practicing and i already have my next project in mind.

@@ -1,0 +1,3 @@
+Upload it to github, create a README with some explanation and instructions, then post it in r/python with the flair "I Made This". When I did this myslef (check my post on my profile) I got *a lot* of constructive criticism and encouragment!
+
+It doesn't only feel great getting "nice job OP" and similar stuff but you also get a lot of ideas and improvements that you can work on.

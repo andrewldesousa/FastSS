@@ -1,0 +1,5 @@
+I was installing a Django plugin that crashed when I attempted to migrate the database during installation. I had no idea what caused it. First I searched google and stack exchange. Then I almost posted an issue on the github, but I decided I should dig a little further before posting. After 20-30 minutes of floundering around (and reinstalling from scratch a couple times)  I finally nailed down where exactly in the code the error was coming from (traceback wasn't super helpful). Turns out, someone fixed a bunch of tests 6 days ago and one of the tests on a migration was not updated along with the model that was updated. So I fixed it and ran it locally, and it worked!  
+
+So all I did was change the name of a Model from testmodel to tmodel and I'm sure it would have been caught by someone within a few more days, but it just feels cool to finally be able to track that stuff down on my own and fix it rather than asking for questions and throwing my hands up all the time.  
+  
+Anyways, it feels pretty good, and none of my friends would get it so I figured I'd share with you guys. Hope everyone is having a happy New Year's Eve's Eve!

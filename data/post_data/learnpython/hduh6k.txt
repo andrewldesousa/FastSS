@@ -1,0 +1,7 @@
+Hi all,
+
+I have been using all the extra time we have at the moment to start studying Python (no previous coding experience). I tried Codecademy for awhile, alongside a few Youtube tutorials - but after seeing it recommended so much on this sub started working my way through the ATBS book. I'm really enjoying it so far; it feels like it's sticking a lot more than the other avenues I had tried before!
+
+I was just wondering if it is the sort of text I should work through from start to finish, or if after covering some of the introductory chapters I should jump into the later sections and begin working on some usable projects? For those that aren't familiar with the text, you can find it [here](https://automatetheboringstuff.com/#toc).
+
+I'm not sure it's worth mentioning, but I am currently making my way through chapter 3. Fortunately, I am still able to do my job from home, so have been squeezing in time for learning early in the mornings or on my lunch breaks.

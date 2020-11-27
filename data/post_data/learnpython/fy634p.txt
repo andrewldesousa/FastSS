@@ -1,0 +1,5 @@
+I know we don’t want to be as anal as SO but, getting new programmers used to paying attention to how their code is formatted and understanding how to ask good questions was a big learning point for me as a self taught programmer. 
+
+Just giving answers to people after having to spend 10 minutes deciphering their problem isn’t really helping them at all. 
+
+IMO giving people keywords to google is much more impactful. And if they don’t have the desire to sift through the results then they won’t ever enjoy programming.

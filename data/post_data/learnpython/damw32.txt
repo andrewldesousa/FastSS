@@ -1,0 +1,3 @@
+https://nostarch.com/automatestuff2
+
+Did you get the first edition? what are your thoughts on it and what what great books you recommend written in latest Python syntax and features?

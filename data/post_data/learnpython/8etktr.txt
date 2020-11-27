@@ -1,0 +1,5 @@
+# [Practice Python](https://edabit.com/challenges/python3)
+
+I posted in this sub over a year ago asking for help with translations but figured it's probably worth posting again now that there's LOTS of quality Python challenges (113 as of this post).
+
+**EDIT: Thanks for the gold stranger!**

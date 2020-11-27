@@ -1,0 +1,15 @@
+Hi,
+
+I recently began learning Python and automated part of a task that 40 staff members have to do a month. It typically takes 2-3 hours a month and I've managed to shave 30-45 minutes off for every person which equates to about 360 hours saved a year.
+
+I work for a Market Research firm that runs a forum where we ask consumers questions and we have to pay these consumers incentives in the shape of Amazon vouchers. We also have to post these winners on the forum for the sake of transparency. We create a pretty image which involves Excel and Powerpoint which is very tedious.
+
+My script is basically a form that will take the long list of winners in an excel file, allow you to put in your login details to the forum, the number of people you want to win, the message you want to send to the winners and title to your post. It will then spit out the Excel file in a pretty image and upload it to the forum as well as your message and title without you having to login at all.
+
+I showed this to my Head of operations and she loved it so much that she instantly booked a meeting with my Vice CTO, Director of product innovation, a senior UX Designer and two senior software developers.
+
+My original presentation for my Head of Operations was very process-oriented, whereas this interview will be full of technical people. So I was wondering, what type of questions are my CTO and Senior software developers likely to ask? And how should I prepare?
+
+For example, should I list all of the packages I have used and write out their permissions? Should I create a very technical process tree that shows the complete process and what happens in the back end?
+
+Thanks,

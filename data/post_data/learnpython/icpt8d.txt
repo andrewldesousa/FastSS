@@ -1,0 +1,17 @@
+We have positions at my job whose duty was to do data entry for our imaging system - they get hundreds of files every day and manually type in the identifier info for the imaging system so the docs can be stored and retrieved.
+
+I knew our system had an automated data entry method, but it wasn't being used. It mattered because the department I lead is reliant on them entering those files in a timely manner. This is our busiest time of year and when I asked them if they could go faster they told me there was nothing they could do.
+
+I write **a lot** of python, so I knew this was achievable. At first I just automated the part that affected me. It was easy enough, the files are standardized with the most important ID in the filename, so it was just a matter of parsing and building the "index" file that is necessary for import. I added some bells and whistles that I knew would help too, got pretty deep into Image Processing and OCR. PIL, OpenCV2, and Tesseract are now very familiar to me which was a lot of fun to learn. It's incredible the resources that are out there, and the computer vision field is so mature that it was a bit shocking how accessible it was.
+
+But then the administration found out and wanted it applied elsewhere.... 
+
+I found out today they're eliminating one of the jobs now that a lot of the process is automated. They just don't need so many people doing it anymore. 
+
+Honestly it feels like shit, she is a nice person and I know this is going to crush her. She hasn't heard yet, but her coworker and I talked about it. It was only a matter of time before it happened, though he wasn't expecting it to be so soon. But with COVID19 they're looking for ways to trim fat and I guess this was an easy salary to eliminate. 
+
+Feels bad man, I mentioned to her I'd be happy to help her learn Python but she wasn't interested... Oh well I guess. 
+
+Yay python? :(
+
+edit: cleaned some shit up

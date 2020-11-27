@@ -1,0 +1,15 @@
+About 5 years ago I started to study programming on and off as a hobby. I love reading articles, posts and books about Python and AutoHotKey, and during these years I have done some webscraping projects and scripts for myself. Nothing too complicated, just enough code to do what I needed, and that's why I still consider myself a newbie.
+
+As someone who uses lots of free open-source software, I always wondered if someday I would find an open source project I could actually contribute to. It could be anything, but finding something is just so difficult! Everywhere I looked, all the projects were either too complicated for a hobbyist programmer like me or used a programming language I do not know.
+
+But this weekend I got lucky. As I was trying some packages (or plugins) for my favorite text editor (Sublime Text), I noticed that [**one of them**](https://github.com/akshaykumar90/sublime-font-cycler), which I use extensively, could be improved by adding a very simple feature.
+
+Without thinking too much about it, I opened an issue on GitHub asking the plugin author if he could implement it. But then I remembered that Sublime Text packages are coded in Python and decided to check the `.py` file by myself.
+
+I usually have trouble reading other people's code, but to my surprise this code was simple enough that I could understand it! And even better, the feature that I wanted to see implemented could be added with just two lines of code!
+
+So that's exactly what I did! After that, I looked for some git tutorials to learn how to make a pull request (I had never used git before), double checked that my code was OK, updated the project `readme.md` file and commited the changes.
+
+Fortunately, some hours after that the plugin author accepted the changes I proposed and they were uploaded to all the package users. Mission accomplished! 
+
+So, fellow hobbyist Python programmers, don't stop looking for a project you can contribute to. One day you may find it. Even if it takes 5 years 😂

@@ -1,0 +1,27 @@
+Ever since embarking on the self-taught journey, I’ve found myself repeating the same mistakes over and over again. Whether you are someone considering going the self-taught route, or a fellow programmer on the same path, I hope this post will be of some help.
+
+**Mistake 1: I can research my way to the right path.**
+
+While there are some tools you can’t avoid (for example, you can’t do front-end web without JavaScript), for the most part, it will be a process of trial-and-error. For the last two months, I was under the impression that React Native would be the perfect solution for my app - it can launch on iOS and Android. No brainer right? Wrong. Turns out, it lacks the level of control I need to build custom canvas features.
+
+As of today, I’ve started to learn Swift and Xcode so I can go iOS native.
+
+As Thomas Edison would say, “I found out 99 ways how **not** to make a light bulb.”
+
+**Mistake 2: I will learn the technology before building.**
+
+I spent two months learning NodeJS, thinking that my app needed to be full-stack in order to be ‘legit’. Not only was this not true, I spent half the time wondering how any of the material was relevant to what I wanted to do.
+
+Instead, I should have been focusing on my users’ problems and using whatever technology necessary to solve it. If I learn something, it’s because I need to, not because the technology looks ‘cool’. (Ironically, many SWEs I’ve shown the app to have said that it looks full-stack, in truth, it is only 3 static files: HTML, CSS, and JS).
+
+**Mistake 3: I will learn the next concept as quickly as the last one**
+
+I learned lists in 2 hours. Crushing it.
+
+Learning objects should be easy. It's just a different kind of list. Can’t be that hard right? Wrong. It took 2 days.
+
+Recursion is just a function looping itself. Easy peasy! Nope. Took me two weeks to go through LeetCode till I felt confident that I understood the concept.
+
+Each concept has its own gestation period. Give it time and be patient with yourself. The good news is that the self-taught route means you can take the time to fully understand the part you are stuck at. Slow down and use this to your advantage. Don’t leave gaping holes in your fundamentals. You wouldn't live in a house built on mud. Don't build a career on weak foundations.
+
+I hope this helps! I’ll update when I hit the 365 day mark :)

@@ -1,0 +1,3 @@
+For those of you who don't know who I'm talking about, Sentdex is an excellent teacher of Python and various Python libraries. He mentioned he was a little unhappy with his old Python tutorial series, and so he's updating it. I think he does a phenomenal job explaining concepts and helping you get going with Python, so I hope this helps other people as well.
+
+If you're a beginner looking to get started, I highly recommend checking out this series as he releases it. Here's the first video, [Introduction to Python 3 Programming Tutorial](https://www.youtube.com/watch?v=eXBD2bB9-RA).

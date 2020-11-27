@@ -1,0 +1,39 @@
+As this title implies this may come off as a more of a vent/rant than intentional. For the last 4 years, since I was in college, I have been trying to learn to program in my free time. I did "learn" HTML in a sense of now type this, this sets this up for this part of your page, etc... After that class I have since forgot many aspects of HTML and I'm starting to feel the same with using Python.
+
+I started with Codecademy in 2016-ish when almost everything was still free. I have finished the Python modules of that as well as with SoloLearn. I have read Automate the Boring Stuff and Python Crash Course as well as following along with the examples cover to cover. Now I am re-reading Automate, Crash Course, and Mark Lutz Learning Python, 5th edition. To add to these books I have:
+Complete Guide For Python Programming
+Deep Learning with Python,
+Fluent Python,
+Learning Python Network Programming,
+Rapid GUI Programming with Python and Qt,
+Python High Performance Programming.
+
+&nbsp;
+
+With all these resources and feeling this lost still with trying to learn a new skill. I feel with these books (with some of them being in the 1000s of pages per book) that I'm more or less wasting my time now. Granted I've been off and on learning for a few years I feel like I should be completely on another level than still at the beginning stages. It just seems like nothing has really clicked together.
+
+I've taught myself many other skills, but this one seems to repeatedly kick my ass time and time again. I understand syntax, can usually fix an error and debug, but to actually sit down and program anything of any real value eludes me. Printing prompts asking for information and storing input variables really doesn't cut as being a programmer I feel like.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+Mobile Edit: Thanks to all for taking time out to voice your opinions and advice. I'm understanding that I've got too much material to the point it is counter productive to coding. This is true that I have not written much of my own scripts/programs and making slight changes in the examples in my material is not productive.
+
+ As for those that have asked why I want to program, it is not for a career change but for something that I want to do. I don't want to reinvent  the wheel. My background is in electrical and automation as well as PLC implementation. Currently there is one machine that has integrated C++ code for much more complex logic than that is possible with branch programming common with PLCs. I find this very interesting and was not aware of this integration until I started working here. So with some programming background it has given me quite a bit of an edge over my coworkers and most of the Engineering support which is a bonus. I eventually want programming to be a move to a more "prestigious" engineering position but not any time soon but mostly to be another hobby that I can come to enjoy and not be worried about wasting my time.
+
+&nbsp;
+
+As of now, I will continue to try to improve my understanding with just structuring out projects I've been holding off because my fear of inadequacy (perhaps could use a better word) and sense of being overwhelmed. I'll start with a simple electrical pocket reference and eventually make it into a GUI compatible with android and see how it goes.
+ 
+Much thanks again guys. This is an awesome sub by the way and quite more active than I was originally anticipating.
+
+&nbsp;
+
+&nbsp;
+
+&nbsp;
+
+Edit #2 for formatting.

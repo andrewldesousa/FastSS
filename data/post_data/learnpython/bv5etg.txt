@@ -1,0 +1,5 @@
+This project was inspired by the task from [Chapter 9 of Automate the Boring Stuff](https://automatetheboringstuff.com/chapter9/) but I tried to push it a little bit further by adding a possibility of preservation source folder structure, log creation, progress bar, remaining files counter and command line interface.
+
+[Here is my code on GitHub.](https://github.com/pltnk/selective_copy/blob/a8cb0d3b5464cb0559cd409dc1803294ce601fa2/selective_copy.py)
+
+ I am new to programming and GitHub, so any feedback either on the code itself or design of README.md and so on is highly appreciated!

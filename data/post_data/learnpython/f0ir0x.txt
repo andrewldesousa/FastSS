@@ -1,0 +1,5 @@
+I love Python, I've done projects that have stretched me and I am proud of. I want to make professional level code that's extensible, readable, modifiable, and organized. I know classes are how most people do this, but I am stuck in function land. I can do everything I would ever want to do with functions, but I understand there must be things I am missing out on.
+
+Can anyone here help me see what I can do with classes that might be making my strictly func based code lacking. I think I just need some concrete examples or tips. Thanks.
+
+Edit: Just wanted to thank everybody for all their help. There are a lot of insightful replies and between the thought put into a lot of the comments as well as the different perspectives I feel much better about the subject now - and started started re-writing a module giving me trouble that was desperately in need of a class. I'm touched and inspired by so many people willing to help.

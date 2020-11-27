@@ -1,0 +1,7 @@
+I dunno if this should be on r/learpython or r/unpopularopinion but figured that it should rather be posted here.
+
+As an intermediate programmer I find that many of my problems can easily be solved by just googling the problem. Unfortunately I have seen many beginners that for some reason are to shy to ask for help even if it means being stuck on the same problem for impossible amount of time. 
+
+I had this problem too actually. I dunno if it was a really toxic part of programming community or just my personal pride but I simply would not ask for help even if it ment being stuck and not accomplishing anything at all. 
+
+If u r beginner and find yourself pinned and u can't figure out the problem please do ask questions. U are just learning, it is OK not to now everything at first. Find healthy balance between figuring problem yourself and being stuck and wasting time.
