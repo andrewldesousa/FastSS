@@ -1,3 +1,0 @@
-https://docs.spyder-ide.org/editor.html#defining-code-cells
-
-Yeah anyways after more than a literal decade of using Spyder found this out. Nice. For all the new IDE's out there I always keep coming back to this one.

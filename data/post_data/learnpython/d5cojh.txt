@@ -1,3 +1,0 @@
-About two years ago, I decided to jump into Python, with a web crawler as my first project. And while it worked well enough, it was bloated, nearly 600 lines of code.
-
-Today, I started from scratch, and rewrote the same functionality in less than 70 lines.

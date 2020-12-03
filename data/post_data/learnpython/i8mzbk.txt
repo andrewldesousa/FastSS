@@ -1,5 +1,0 @@
-Hey y’all, I just completed my first ever programming project! I recently just completed a Python course on Udemy(S/O Jose) and I wanted to build my own project from stratch. I wanted the project to be meaningful and impactful to me, and since I’m considering moving from my current apartment, I wanted to know what other apartments/homes are renting for in the city I live in(Arlington Tx). I decided to build a webscraper that grabs all the listing info for places being put up for rent on Zillows website and writes it all out to a CSV file using Pandas. Link to the github repo down below let me know what y’all think!
-
-https://github.com/faithfulalabi/Zillow_Scraper
-
-P.S I know there’s probably 1000 ways I could’ve written the code better but I’d love y’alls input on some of the big ones that are relevant to be becoming a great programmer.

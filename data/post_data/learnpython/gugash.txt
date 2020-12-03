@@ -1,9 +1,0 @@
-I was doing the course "An Introduction to Interactive Programming in Python (Part 1)" by Rice Uni in coursera and there was a assignment were we had to build the pong game. This is actually something I am really proud of! Took me around 7 hours and lots of messy code!
-
-Would love any code feedback!
-
-[PONG GAME](http://www.codeskulptor.org/#user47_DxNN5EFZyj_0.py)
-
-&#x200B;
-
-ps: click the run button in the editor

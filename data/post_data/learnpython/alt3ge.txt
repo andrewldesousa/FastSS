@@ -1,7 +1,0 @@
-I'm a lifelong network engineer, and before November of last year I never coded or scripted a damn thing in my life. I knew python could be used for all kinds of tasks and I had been wanting to learn it since about 2016 but stayed away due to intimidation and time constraints. 
-
-In November I got hooked on codeacademy's python course and subscribed, and supplemented it with CBT nuggets' python course. Bought Automate the Boring Stuff on amazon (which is always open and in front of my face while coding) and just started practicing concepts as laid out in the book. 
-
-Today I successfully built a python script that SSH's in to groups of routers/switches and gets information from them, checks the information for certain values, and outputs me a list of compliant devices in a .txt... Last week i built a script that ingests 2 differen excel documents and compares them and alerts me of discrepancies between them. It took a bit of effort, but the reward has already been enormous, its amazing! 
-
-The best part is i can use all of these little functions I've built in other, larger ways later on. Python has seriously empowered me not only in doing things for me, but in the belief that i too could achieve such knowledge apply it to my daily grind, that i too could achieve greatness!

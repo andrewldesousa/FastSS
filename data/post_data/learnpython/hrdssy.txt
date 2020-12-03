@@ -1,3 +1,0 @@
-Is there a good subreddit to ask "intermediate" python questions?  /r/learnpython has been very helpful (and continues to be! thanks!), but usually I don't get responses when I ask questions about, say, PyQt5 or async stuff.  And then the people over at /r/python are too important and busy with their 10 hot girlfriends each to discuss mere questions, and usually point me back here.
-
-Of course there is Stack Overflow, but I do feel that reddit is better for discussion vs. posting a question and getting sample code as an answer on SO.

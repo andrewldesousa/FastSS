@@ -1,6 +1,0 @@
-In the spring I posted a set of cheat sheets aimed at beginners, and many people found them useful. I've since completed the set of sheets, and wanted to share the full set. The additional sheets cover files and exceptions, testing, Pygame, matplotlib, Pygal, and Django.
-
-You can download [individual sheets](http://ehmatthes.github.io/pcc/cheatsheets/README.html), or download a pdf that includes all the sheets in [one document](https://github.com/ehmatthes/pcc/releases/download/v1.0.0/beginners_python_cheat_sheet_pcc_all.pdf). These sheets aim to remind you of Python's syntax, but they also include brief explanations of the concepts behind the syntax as well.
-
-I wrote these sheets as supporting documentation for readers of [Python Crash Course](https://www.nostarch.com/pythoncrashcourse), but I think they're useful for beginners in general. I hope you find them helpful, and I'm happy to answer any questions about them.
-

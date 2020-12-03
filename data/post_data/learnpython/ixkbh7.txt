@@ -1,1 +1,0 @@
-I saw in a post that you have to learn git for most programming jobs, what exactly is git? and where can i learn it, i always just assumed its just uploading your stuff to github. not too sure if this is the right place to post this

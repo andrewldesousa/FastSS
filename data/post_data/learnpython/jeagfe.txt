@@ -1,3 +1,0 @@
-By basics I mean this: [https://www.youtube.com/watch?v=rfscVS0vtbw](https://www.youtube.com/watch?v=rfscVS0vtbw)
-
-Is that enough to start working on projects with Python(There is a sum up of the video in the description)? Where should I go from here and maybe you could recommend me some websites with some small projects that I could practice?

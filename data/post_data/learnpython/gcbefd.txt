@@ -1,5 +1,0 @@
-I've been thinking of organizing a group of people similar to my own level who would like to learn together.  I'd be interested in potentially hoping on a zoom periodically and helping each other through problems and just generally navigate the world of python and programming at large. 
-
-No real solid ideas so please share any that you have as well if you'd be interested!
-
-I've personally just finished Python Crash Course and have built a few small programs such a game of 21 that you play against a computer dealer. However if there are enough people who are interested we could have a few different levels.

@@ -1,4 +1,0 @@
-I’ve posted what I think are legitimate questions I’ve encountered while learning Python, only to get trolled and shut down by people who are really advanced developers. I’m learning online and sometimes it’s helpful for me to ask someone with more experience rather than bang my head off a wall trying to figure it out. 
-Is there another place to ask maybe more intro to intermediate questions without being made to feel like an idiot for wanting to learn? Am I the only one who is started to hate stackoverflow for this reason?
-
-Edit: thank you for all the responses! I see a lot of “you need to ask the question properly and make a strong research effort prior to going to SO”. I’ve really only gone there after I’ve exhausted every available avenue and still came up short or found things somewhat similar, but it still didn’t solve the problem I was facing. I see this has also been the majority experience with SO. Thankful for this group!

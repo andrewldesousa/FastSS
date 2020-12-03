@@ -1,1 +1,0 @@
-As a beginner learning python, is it too early to create and start coding simple projects on Github. and how do I transfer these codes (simple calculators) to a website I build subsequently?

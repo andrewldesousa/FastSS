@@ -1,1 +1,0 @@
-As a newbie to coding in general and having trouble understanding classes. [This helped me a bunch](http://slides.com/jasonmyers/learnpython-classes#/), I hope others can find it useful.

@@ -1,1 +1,0 @@
-I was wondering whether you guys keep a handy cheat sheet when y'all code. For example when working with a module after a long time it's obvious that we become rusty and need help with the functions and the syntax. Would be great if you guys share the links/books that you guys refer to while programming. I'm sorry if this has been asked before. Cheers!

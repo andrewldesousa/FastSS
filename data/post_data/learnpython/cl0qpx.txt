@@ -1,3 +1,0 @@
-I'm the last person who ever wants to write unit tests but, when you know you have to write unit tests you become a better engineer. You write smaller functions, you have less bugs and realizing how difficult it is to write a high coverage unit test the better you design your functions and ultimately your program.
-
-edit: [How to test hello world!](https://www.reddit.com/r/learnpython/comments/cl0qpx/psa_to_all_beginners_learn_how_to_use_unit_tests/evu5vwm/)

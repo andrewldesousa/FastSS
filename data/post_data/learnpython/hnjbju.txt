@@ -1,9 +1,0 @@
-Hi All, I have written a my first very basic program for webscraping where it summaries the top 5 most read article and sends a email.
-
-The user needs to enter their email ID and password to login using smtplib and that's all the input that is required.
-
-I wanted to share this with my friends so they can use it at their end without having to install python.
-
-Is it possible to do that? Basically i wanted to know once we write a program how do we create a user friendly front end app?
-
-Many thanks in advance! Any inputs are highly appreciated!

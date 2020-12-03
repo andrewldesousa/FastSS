@@ -1,9 +1,0 @@
-What is an environment, whats a configuration?
-
-&#x200B;
-
-I keep seeing terms like these and a bunch of other stuff in Python courses I take, but no one takes the time to explain how Python even works on my computer. Are there any videos you can suggest that talk about not how to program with Python but what an environment is and why I have both a terminal and IDLE. Explaining Python even functions on my Mac.
-
-&#x200B;
-
-thanks!

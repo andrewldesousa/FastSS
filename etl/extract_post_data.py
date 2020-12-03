@@ -3,6 +3,7 @@ sys.path.append('.')
 
 import praw
 from data.models import Post, Comment
+from data.db import Base, engine, Session
 
 
 reddit = praw.Reddit(
@@ -19,10 +20,13 @@ subreddits = [
 ]
 
 if __name__ == '__main__':
+    Base.metadata.create_all(engine)
+    session = Session()
     limit = 300
 
     for subreddit in subreddits:
         print(f'Extracting {subreddit} data...')
         for submission in reddit.subreddit(subreddit).top(limit=limit):
             p = Post(submission)
-            print(p.body)
+            session.add(p)
+    session.commit()

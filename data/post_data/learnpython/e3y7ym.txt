@@ -1,3 +1,0 @@
-I ran across [this jewel](https://yorkshire4.readthedocs.io/) - it looks like a great way to learn programming.
-
-[The author](https://github.com/beeware) transcribed the code from a series of books designed to teach programming in the days of the Commodore 64.

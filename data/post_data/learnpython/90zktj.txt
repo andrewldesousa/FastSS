@@ -1,5 +1,0 @@
-I sometimes see a thread with Python newbie asking a question and after getting the answer, he/she deletes the thread and doesn't even thank the commenters. Guys, you have nothing to be ashamed for, everyone was a beginner once! That's what /r/learnpython is for. If you delete your thread, not only it is rude to people who went out of their way to answer you, but you are kinda ruining it for other people who might benefit from reading the thread.
-
-Case in point: https://www.reddit.com/r/learnpython/comments/90ya6i/why_doesnt_this_work/
-
-/rant

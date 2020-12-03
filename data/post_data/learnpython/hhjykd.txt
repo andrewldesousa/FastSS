@@ -1,5 +1,0 @@
-I keep reading people say things like ‘because Python is built on C’ and ‘Python is much slower than C++ or Go’, ‘Thats why those languages are used to make most popular games’. I also see people refer to Python as a ‘machine’ language, etc etc. So... why use python then if you can do things faster with another language? And why is Python so popular if this is the case?  Seems like python is easier to understand for me at least and much easier to read, but is there some other benefit I’m not understanding? Sorry if this had been asked before, I can’t find any direct comparison information between Python and other languages.
-
-EDIT: Thanks everyone! I feel a much better understanding of why python is fast in a different way from other languages, saving programming time rather than computing time. Definitely got the answers I was looking for.
-
-Another edit: Great insights all around. Thanks to everyone taking the time to answer! Looks like I need to do some more research on Cython as I see a few people mentioning it for when speed is required.

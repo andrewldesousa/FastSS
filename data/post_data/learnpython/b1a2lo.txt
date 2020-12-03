@@ -1,1 +1,0 @@
-Here it is: https://github.com/GTeninbaum/pizzapi.py/blob/master/v3.py. Pull requests welcome to improve it!

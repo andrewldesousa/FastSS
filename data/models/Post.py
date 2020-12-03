@@ -1,23 +1,26 @@
 
-from sqlalchemy import Table, Column, Integer, String, ForeignKey
+from sqlalchemy import Table, Column, Integer, Float, String, ForeignKey
 from sqlalchemy.orm import relationship
 from data.db import Base, engine
+from .Comment import Comment
 
 
 class Post(Base):
     __tablename__ = 'post'
-    id = Column(Integer, primary_key=True)
+    id = Column(String, primary_key=True)
     title = Column(String)
     body = Column(String)
-    author = Column(String) 
-    upvotes = Column(Integer)
-    downvotes = Column(Integer)
+    author_name = Column(String) 
+    score = Column(Integer)
+    upvote_ratio = Column(Float)
+
     comments = relationship("Comment", back_populates="post")
 
-
     def __init__(self, praw_post):
+        self.id = praw_post.id
+        self.title = praw_post.title
         self.body = praw_post.selftext
-        # self.body = Column(String)
-        # self.author = praw_post.author
-        # self.upvotes = praw_post.upvotes
-        # self.comments = praw_post.
+        self.author_name = praw_post.author.name if praw_post.author else None
+        self.score = praw_post.score
+        self.upvote_ratio = praw_post.upvote_ratio
+        self.comments = [Comment(praw_post, i) for i in list(praw_post.comments)]

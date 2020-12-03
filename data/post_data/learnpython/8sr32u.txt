@@ -1,9 +1,0 @@
-For those who like to learn python by video this a great "curated" list for YouTube.
-
-The Ultimate List of Python YouTube Channels – Real Python
-
-[https://realpython.com/python-youtube-channels](https://realpython.com/python-youtube-channels)
-
-My favorites so far: Al Sweigart, Corey Schafer, Sentdex and Socratica
-
-Let me know what you like or find useful ...

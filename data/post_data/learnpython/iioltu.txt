@@ -1,2 +1,0 @@
-I learned python from Udemy : From  Zero to Hero by Jose . But I feel that there's little too less to practice in there. Before learning python I had learned light C++ which was part of my high  school . My sir would give us  many kinds of exercises. Right Now Since I'm learning it on my own I am  finding it hard to find  practice exercises. (on lists, tuples , OOP, loops, I think the whole bunch).   
- Thanks :)

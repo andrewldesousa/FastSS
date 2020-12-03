@@ -1,8 +1,0 @@
-Sorry, I really don’t have anyone else to gloat to. 
-I’ve been really trying over the past year to wrap my head around python but thought I would never get it after trying a bunch of boring online courses. I recently got the book “Automate the boring stuff with python” (I’m about half way through) and it made me start thinking about things totally differently. The way the book explained why stuff didn’t work really made things click.
-
-A couple days ago an idea popped into my head for a project that would actually be useful for me. I wanted to take an eBay page url, drop it in and have it generate a pdf to a specific folder. I’m an eBay seller so I figured it would be nice to track some items since eBay only keeps sold records for 90 days.
-
-I wrote it out on paper, worked through some issues and after a day, I have a code that takes an eBay url you enter,has you choose a file name, generates a pdf of the page with the name entered, creates a folder on the desktop and puts the pdf in the folder. Now I’m sure it’s messy or could have been done differently but I learned so much in the process, and it works!!
-
-I never thought I could figure anything like this out but thanks to this sub for motivating me, I’m finally seeing progress!!

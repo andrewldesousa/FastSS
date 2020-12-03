@@ -1,1 +1,0 @@
-As of now every project on my github is just 1 or 2 Python files. I’ve looked at many different projects on github and the majority of them have many different folders and files and I have no clue what their purpose is. Where can I read about properly structuring a Python project?

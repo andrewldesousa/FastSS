@@ -1,9 +1,0 @@
-Hello,
-
-I have used Python for about 3 years or so now. However, I have made a huge mistake....
-
-I always just pip install libraries from the command-line without setting up or using a virtual environment. I have used virtual environments at work before (for ML, to access my school's GPUs, etc.), I just never bothered to use one for my python projects.
-
-Well, now I am going to start trying to make Python applications that will actually be used in a work environment, so I want to do it right. I want to abide by best practices for this sort of thing. I want to start using environments the correct way. I was going to completely uninstall Python from my computer, and then reinstall it, however I do not know if this is the best way to start. All I know is that I have like 50 libraries installed on my system itself, and those need to go. 
-
-Any help with what I should do? Also don't want to lose any of my old programs, but I know that just uninstalling Python should not directly affect this. Thank you in advance!

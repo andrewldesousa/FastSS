@@ -1,9 +1,0 @@
-I’m in a customer support leadership position and I’ve been at Python for roughly a half year after learning SQL the first half of the year. It wasn’t in my job description, but all the free time I had I spend working on relevant python scripts and I’d sometimes spend 15+ hours/week outside of the job getting scripts to work.
-
-Our business intelligence officer let me know the plan is to pull me out of support and into an official data analyst role in Q1. 
-
-I feel incredibly proud and wanted to share and thank this subreddit for always giving thoughtful answers, and for people not being afraid to ask what they might think are stupid questions. So many good resources are references and a plethora of general programming tips are shared. 
-
-For anyone who’s just starting out, keep at it! If you have the opportunity work on scripts practical to your job you’ll eventually you’ll impress someone. I really can’t wait for the opportunity to focus on this stuff full time and really begin to grow. 
-
-Thanks!

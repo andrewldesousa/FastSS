@@ -1,3 +1,0 @@
-This project was super fun to make and i learnt a lot.
-
-Github repo:  [https://github.com/piyx/add-yt-songs-to-sptfy-playlist](https://github.com/piyx/add-yt-songs-to-sptfy-playlist)

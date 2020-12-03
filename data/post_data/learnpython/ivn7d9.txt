@@ -1,3 +1,0 @@
-I want to automate something, and whenever that event occurs, I get an email
-But I was thinking I can't use my laptop for this as it's not on forever and when I run another script, the previous one stops and I don't get emails
-How do you approach your automations? Like, do you put it on some server that can run 24 7 or something?

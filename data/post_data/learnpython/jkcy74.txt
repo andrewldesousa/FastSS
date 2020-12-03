@@ -1,3 +1,0 @@
-I was tasked with the small project of making a bot for our Discord server. It’s really simple so far and just reminds certain users to complete their tasks and takes them off the reminder list when they use a command, but after two years of coding as a hobby, I’m finally actually using it! I’m definitely using this as leverage into a raise when my review comes around.
-
-Stick with it!

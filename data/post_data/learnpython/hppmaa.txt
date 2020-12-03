@@ -1,1 +1,0 @@
-Jupyter Notebooks are the tool that turned the tables for me learning python. I'm just here to evangelize them. You can run your code line by line and debug as you go in a comfortable web browser interface. It's an excellent tool, and it made it so much more efficient to learn. Check it out.

@@ -1,9 +1,0 @@
- Had a noteworthy event at work today. I have an internship with Amazon for the summer, but it with the Data Center Operations divisions. So working with servers mostly. But I found a way to make an impression on my manager today using Python. I can't go into specific details of what we were working on (NDA and confidentiality and all) but I can talk about what I did. 
-
-We were working with a large number of assets (327 total) and part of that work involved compiling information about those assets. Well as an intern I get all the crap jobs. So I got handed that job. So for 2 days, I've been working on compiling the info in a spreadsheet. Thought I was finished but found I only had information for 319 assets. Well, we can't just 'lose' 8 assets. That kind of looks bad on a record. So my manager wanted me to go through the list of total assets and figure out what 8 we didn't have info for. I'm like 99% sure he was expecting me to go line by line in excel and do a CTRL+F to see which ones from the total list weren't on the info list. A nice little process that would likely have taken me the better part of the day to accomplish.   
-
-Instead, I pulled up python, threw together a script to build 2 lists (one for total assets, one for the information I had compiled) and then compare the lists. Anything it found in the totals list that it didn't find in the info list got dumped to a text file.  
-
-Total time: 18 minutes (I had to look up some info on the xlswriter module).  
-
-My manager literally said: "How the hell did you do that?" when I showed him the list 20 minutes after we spoke.

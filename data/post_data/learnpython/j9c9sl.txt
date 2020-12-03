@@ -1,5 +1,0 @@
-The title says it all, if anyone is interested here's the link to the repo:
-
-[https://github.com/hentai-chan/hentai/](https://github.com/hentai-chan/hentai/)
-
-You can also use PyPI (`pip install hentai`).

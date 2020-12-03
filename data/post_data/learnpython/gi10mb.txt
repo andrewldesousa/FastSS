@@ -1,9 +1,0 @@
-Long story short, I've been learning web development for a while, and kept getting tripped up by JavaScript. I keep getting to a point with JS where I start thinking that programming just might not be for me. But then I came across At Sweigart's 'Automate the Boring Stuff' Udemy course, and I'm halfway through and REALLY ENJOYING IT.
-
-Python makes a long more sense to me than JS, and while I always thought I'd be wanting to get into front-end development, I'm wondering if this is more suited to me.
-
-SO my question is, where should I go from here? I'd love to hear your suggestions for books, other courses, resources to look into once I'm done with this course, or any websites you like that have projects where I can practice my Python coding. This might be a ridiculous question, but what do you actually... do... with Python?! I wanna do stuff! :)
-
-&#x200B;
-
-EDIT: WOAH this thread blew up, thank you all SO MUCH!!! I'm so grateful for everyone's suggestions and links. I've saved lots of bookmarks and now I have lots more things to consider when this course is done. I really appreciate all the support, and I look forward to spending more time in this sub while adventuring in Python!

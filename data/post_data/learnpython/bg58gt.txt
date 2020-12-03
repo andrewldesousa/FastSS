@@ -1,6 +1,0 @@
-I make Python videos on YouTube and get a lot of questions every day. I found these 5 mistakes to be common problems, especially for those who are learning Python. Hope some of you find this helpful. Video [here](https://youtu.be/zdJEYhA2AZQ):
-
- [https://youtu.be/zdJEYhA2AZQ](https://youtu.be/zdJEYhA2AZQ)  
-
-
-Cheers

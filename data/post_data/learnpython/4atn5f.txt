@@ -1,5 +1,0 @@
-I recently made a set of cheat sheets aimed at beginners, and thought they might be useful to some people here.
-
-The [first sheet](https://github.com/ehmatthes/pcc/raw/master/cheat_sheets/beginners_python_cheat_sheet_pcc.pdf) provides an overview of many basic concepts in Python. Individual sheets cover lists, dictionaries, if statements and while loops, functions, and classes. You can download [individual sheets](https://ehmatthes.github.io/pcc/cheatsheets/README.html), or download a pdf that includes all the sheets in [one document](https://github.com/ehmatthes/pcc/raw/master/cheat_sheets/beginners_python_cheat_sheet_pcc_all.pdf).
-
-Cheat sheets have been really helpful to me at times when learning a new language or framework, and I hope these are useful to some people as well.

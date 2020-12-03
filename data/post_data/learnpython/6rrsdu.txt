@@ -1,5 +1,0 @@
-Lynda.com is one of those training/education websites like Coursera & Udemy. An account is usually around $30 per month, but a lot of libraries have an account you can use to access all the courses for free! So if you have a library card, you can log on to Lynda with it! 
-
-I'd recommend going to your libraries website and searching for their link to Lynda. Log in through that link. Once you're logged in, just search for Python and tons of stuff comes up.
-
-Wanted to let the sub know because if you're library has an account it's a valuable source of training available to you!

@@ -1,9 +1,0 @@
-It never quite clicked to me exactly why virtual environments are so important.. until today.  I don't use python a whole lot, but use it for some automation / data processing.  I've been trying to incorporate it more leveraging 3rd party libraries.  I've generally only had a couple of projects that almost all utilized the same libraries (requests, pandas etc.)
-
-Well, those third party libraries are potentially built using other third party libraries.  In their [setup.py](https://setup.py) file they contain the versions of those libraries they use.  Well today, I installed csvmatch and noticed it removed my dedupe library and replaced it with a much older one.  This would have broken another program I created.
-
-Going forward I will learn how to properly use virtual environments so I don't screw up other projects.
-
-Dumb I know, but sometimes you need to see it for yourself to truly understand how and why something works or its intention.
-
-Thanks for coming to my ted talk.

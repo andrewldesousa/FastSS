@@ -1,5 +1,0 @@
-I finished solving the 30 coding challenges in python and it was a great journey looking forward to solving more challenges. This helped me gain a bit more confidence and i would definitely recommend it. The best part about hackerrank is that they give you stars and the gold badge when you have completed all of it . There is the python gold badge that I am going to start working towards now!
-
-The gold badge:
-
-  https://www.hackerrank.com/aiden506sams?badge=30-days-of-code&stars=5&level=3&hr\_r=1&utm\_campaign=social-buttons&utm\_medium=twitter&utm\_source=badge\_share&social=linkedin

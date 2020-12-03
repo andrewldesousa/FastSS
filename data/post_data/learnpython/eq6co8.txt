@@ -1,7 +1,0 @@
-Inspired by /u/glof2 's [post](https://www.reddit.com/r/learnpython/comments/emdvop/i_wrote_an_application_that_sets_your_background/), I created a script that uses PRAW to scrape /r/wallpapers and sets it as your desktop wallpaper. It only works for windows, but I might work with some friends in my classes and develop a linux/macOS version. Otherwise, if ya wanna try and make it yourself feel free! If you like it, use it with task scheduler to set a new wallpaper every day.
-
-
-[Link](https://github.com/nguyenevan42/reddit2desktop) 
-
-This was a fun project because I learned a lot about PRAW, different packages, and how to use GitHub. 
-Feedback appreciated!

@@ -1,1 +1,0 @@
-Are there people here who aren't professional developers making money with python? What kind of projects do you create and what problems do they solve? As a beginner, I am curious about the kind of python programs that I can create & monetize - stuff like APIs, desktop software or a web app ? Does data science or ML payoff as a self employed?

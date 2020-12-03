@@ -1,9 +1,0 @@
-Hello guys!
-
-I recently finished learning python and have build few things and got the grasp of it.
-
-Wanted to know which framework / library should I learn next ? 
-
-Any help will be very helpful.
-
-Regards.
