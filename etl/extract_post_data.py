@@ -4,7 +4,7 @@ sys.path.append('.')
 import praw
 from data.models import Post, Comment
 from data.db import Base, engine, Session
-
+from data.Subreddit import Subreddits
 
 reddit = praw.Reddit(
     client_id='uPfZe_DBd33CNQ',
@@ -12,19 +12,12 @@ reddit = praw.Reddit(
     user_agent='linux:reddit4nlp:v0 (by /u/lilinformatiker)',
 )
 
-subreddits = [
-    # 'AskReddit',
-    # 'politics',
-    # 'science',
-    'learnpython',
-]
-
 if __name__ == '__main__':
     Base.metadata.create_all(engine)
     session = Session()
-    limit = 300
+    limit = 5000
 
-    for subreddit in subreddits:
+    for subreddit in Subreddits.list_subreddits():
         print(f'Extracting {subreddit} data...')
         for submission in reddit.subreddit(subreddit).top(limit=limit):
             p = Post(submission)
