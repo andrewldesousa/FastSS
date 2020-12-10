@@ -1,7 +1,7 @@
-
-from sqlalchemy import Table, Column, Integer, Float, String, ForeignKey
+import praw
+from sqlalchemy import Table, Column, Integer, Float, String, ForeignKey, Boolean
 from sqlalchemy.orm import relationship
-from data.db import Base, engine
+from data.db import Base, engine, reddit
 from .Comment import Comment
 
 
@@ -13,6 +13,8 @@ class Post(Base):
     author_name = Column(String) 
     score = Column(Integer)
     upvote_ratio = Column(Float)
+    has_full_body = Column(Boolean)
+    subreddit = Column(String) 
 
     comments = relationship("Comment", back_populates="post")
 
@@ -23,4 +25,13 @@ class Post(Base):
         self.author_name = praw_post.author.name if praw_post.author else None
         self.score = praw_post.score
         self.upvote_ratio = praw_post.upvote_ratio
-        self.comments = [Comment(praw_post, i) for i in list(praw_post.comments)]
+        self.has_full_body = False
+        self.subreddit = praw_post.subreddit.name
+
+        comments = []
+        for i in list(praw_post.comments):
+            if isinstance(i, praw.models.Comment):
+                comments.append(Comment(praw_post, i))
+            else:
+                break
+        self.comments = comments
