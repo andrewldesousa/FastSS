@@ -18,7 +18,7 @@ class Post(Base):
 
     comments = relationship("Comment", back_populates="post")
 
-    def __init__(self, praw_post):
+    def __init__(self, praw_post, add_comments=False):
         self.id = praw_post.id
         self.title = praw_post.title
         self.body = praw_post.selftext
@@ -28,10 +28,11 @@ class Post(Base):
         self.has_full_body = False
         self.subreddit = praw_post.subreddit.name
 
-        comments = []
-        for i in list(praw_post.comments):
-            if isinstance(i, praw.models.Comment):
-                comments.append(Comment(praw_post, i))
-            else:
-                break
-        self.comments = comments
+        if add_comments:
+            comments = []
+            for i in list(praw_post.comments):
+                if isinstance(i, praw.models.Comment):
+                    comments.append(Comment(praw_post, i))
+                else:
+                    break
+            self.comments = comments

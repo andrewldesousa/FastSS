@@ -32,7 +32,6 @@ class Subreddits:
         ('Parenting', [ClassEnum.LIFE]),
         ('lifehacks', [ClassEnum.LIFE, ClassEnum.GENERAL]),
         ('blog', [ClassEnum.GENERAL]),
-        ('gametheory', [ClassEnum.ECONOMICS, ClassEnum.COMPUTER_SCIENCE]),
         ('askscience', [ClassEnum.SCIENCE]),
     ]
 

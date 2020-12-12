@@ -14,8 +14,11 @@ def extract_posts_and_comments():
 
     for subreddit in Subreddits.list_subreddits():
         print(f'Extracting {subreddit} data...')
+        i = 0
         for submission in reddit.subreddit(subreddit).top(limit=limit):
-            p = Post(submission)
+            i+=1
+            print(f'Processing post {i} out of {limit}.')
+            p = Post(submission, add_comments=False) # adding comments is slow
             session.add(p)
     session.commit()
 
