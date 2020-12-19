@@ -98,12 +98,21 @@ const launchRequest = {
 
 function App() {
   const [widgetOpen, setWidgetOpen] = useState(false);
- 
   
   useEffect(() => {
-    toggleWidget();
-    console.log(fetch('http://localhost:5000/'))
-    addResponseMessage('Welcome to this awesome chat! You can utilize Fast Synonym. Which one would you like to open?');
+	toggleWidget();
+	fetch('http://localhost:5000/fast-synonym', {
+		method: 'POST',
+		mode: 'cors',
+		headers: {
+			'Content-Type': 'application/json',
+			'Access-Control-Allow-Origin': '*'
+		},
+		body: JSON.stringify(launchRequest)
+  	  }
+	).then((res) => res.json()).then((r) => {
+		addResponseMessage(r.response.outputSpeech.ssml)
+	})
   }, []);
 
   const handleNewUserMessage = (newMessage) => {

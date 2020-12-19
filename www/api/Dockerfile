@@ -11,4 +11,5 @@ RUN pip install -r requirements.txt
 
 COPY . /usr/src/app
 
-CMD python app.py -h 0.0.0.0
+EXPOSE 5000
+CMD ["python", "app.py"]
