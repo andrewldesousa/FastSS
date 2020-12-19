@@ -1,18 +1,14 @@
-FROM alpine:3.12
+FROM python:3.7.2-slim
 
-COPY . /app/
-COPY requirements.txt /requirements.txt
+RUN apt-get update && \
+    apt-get -y install netcat && \
+    apt-get clean
 
-RUN apt-get update \
-    && apt-get install python3-dev python3-pip -y \
-    && pip3 install -r requirements.txt
+WORKDIR /usr/src/app
 
-ENV LC_ALL=C.UTF-8
-ENV LANG=C.UTF-8
+COPY ./requirements.txt /usr/src/app/requirements.txt
+RUN pip install -r requirements.txt
 
-ENV PYTHONPATH=/app
-WORKDIR /app
+COPY . /usr/src/app
 
-EXPOSE 8000
-
-CMD ["python3", "app.py"]
+CMD python app.py -h 0.0.0.0

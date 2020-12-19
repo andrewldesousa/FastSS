@@ -16,9 +16,5 @@ app.config.setdefault(VERIFY_TIMESTAMP_APP_CONFIG, False)
 skill_response = SkillAdapter(skill=fast_synonym_sb.create(), skill_id=None, app=app)
 skill_response.register(app=app, route="/fast-synonym")
 
-@app.route('/')
-def index():
-    return render_template('index.html')
-
 if __name__ == '__main__':
     app.run()
