@@ -1,0 +1,8 @@
+fastapi
+uvicorn
+pydantic
+pandas
+
+python-multipart
+pytest
+requests

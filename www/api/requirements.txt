@@ -1,3 +1,0 @@
-flask
-flask-ask-sdk
-flask-cors

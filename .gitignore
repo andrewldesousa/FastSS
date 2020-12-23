@@ -127,4 +127,4 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
-dl4nlp.pem
+fast-synonym.pem
