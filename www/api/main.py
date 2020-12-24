@@ -33,6 +33,5 @@ def predict(word: str):
         output.append(line[0])
     f.close()
     os.remove(file_name)
-    print(output)
 
-    return {'status': output}
+    return {'synonyms': output}

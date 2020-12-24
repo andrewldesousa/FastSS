@@ -12,7 +12,7 @@ RUN pip3 install --upgrade pip
 RUN pip3 install -r /requirements.txt
 RUN git clone https://github.com/facebookresearch/fastText.git
 RUN cd fastText && make && cd ..
-RUN unzip api/api/output_file.zip
+RUN unzip /api/api/output_file.zip
 
 ENV PYTHONPATH=/api
 WORKDIR /api
