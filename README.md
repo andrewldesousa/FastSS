@@ -9,7 +9,7 @@ The models are wrapped around an API on AWS and was deployed using FastAPI.
 ## Syn
 This model will get the synonyms for any word (in English) the user gives. 
 
-As an example, the user can say “Alexa, give me a synonym for _eat_”.
+As an example, the user can say “Alexa, give me a synonym for <ins>eat</ins>”.
 
 An Alexa replies: 
 
@@ -22,9 +22,9 @@ AlexaSummarise is a project that summarizes posts from any subreddit for you.
 
 As an example, the user says: “Alexa, summarize the latest <ins>1</ins> post(s) in <ins>learningpython</ins>”
 
-You can specify the subreddit you want and how many posts you want summarized (the default is 1). If the number of posts to be summarized is more than one, Alexa will take turns summarizing each one and giving you the summary (this will definitely take some time).
+The user can specify the subreddit you want and how many posts you want summarized (the default is 1). If the number of posts to be summarized is more than one, Alexa will take turns summarizing each one and giving you the summary (this will definitely take some time).
 
-*NLP Category: Text Summarization*. To achieve this, we used learned BERT sentence embeddings to build an extractive summarizer.
+*NLP Category: Text Summarization*. To achieve this, we used learned BERT sentence embeddings to build an extractive summarizer. In extractive text summarization, we aim to use deep learning to identify the important sentences or excerpts from a large text.
 
 # Project Contributors 
 * Chris Emezue (chris.emezue@tum.de | chris.emezue@gmail.com)
