@@ -7,7 +7,7 @@ python-multipart
 pytest
 requests
 
-torch==1.7.1+cpu torchvision==0.8.2+cpu torchaudio===0.7.2 -f https://download.pytorch.org/whl/torch_stable.html
+
 praw
 nltk
 transformers==2.2.2
