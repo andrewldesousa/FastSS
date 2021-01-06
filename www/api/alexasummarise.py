@@ -14,11 +14,13 @@ from nltk.tokenize import sent_tokenize
 
 from summarizer import Summarizer
 
+import os
+
 
 reddit = praw.Reddit(
-    client_id='uPfZe_DBd33CNQ',
-    client_secret='agUDFRuHKtARBlwR_w0QQ385PLwZSw',
-    user_agent='linux:reddit4nlp:v0 (by /u/lilinformatiker)',
+    client_id=os.environ.get('client_id'),
+    client_secret=os.environ.get('client_secret'),
+    user_agent=os.environ.get('user_agent'),
 )
 
 data_dir='./'
@@ -173,14 +175,10 @@ def summarise(subr,num_posts=1):
         'date':datePosts
        
     }
-    summary={}
+    summary = []
     for i in range(len(articles)):
       result = model(articles[i],num_sentences=1,max_length=250)
       full = ''.join(result)
-      summary.update({i:full})
+      summary.append(full)
 
     return summary,details
-    
-   
-#summary,details = summarise()   
-#print(f"Summary for post: \n {summary} \n Details: {details}")

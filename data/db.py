@@ -8,10 +8,10 @@ Session = sessionmaker()
 Session.configure(bind=engine)
 Base = declarative_base()
 
-reddit = praw.Reddit(
-    client_id='uPfZe_DBd33CNQ',
-    client_secret='agUDFRuHKtARBlwR_w0QQ385PLwZSw',
-    user_agent='linux:reddit4nlp:v0 (by /u/lilinformatiker)',
-)
+# reddit = praw.Reddit(
+#     client_id=
+#     client_secret=
+#     user_agent=
+# )
 
 # Base.metadata.create_all(engine)

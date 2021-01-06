@@ -128,4 +128,5 @@ dmypy.json
 # Pyre type checker
 .pyre/
 www/api/output_file.zip
+www/api/api.env
 fast-synonym.pem
