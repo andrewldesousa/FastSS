@@ -1,16 +1,16 @@
 # reddit4nlp
 
-In this Alexa Skill project, we design two models to perform the following tasks using Reddit data:
+In this Alexa Skill project, we design two models using Reddit data:
 1. Syn
 2. AlexaSummarise
 
-The models are wrapped around an API on AWS and was deployed using FastAPI.
+The models are wrapped around an API on AWS and was deployed using [FastAPI](https://fastapi.tiangolo.com/).
 
 ## Syn
-This model will get the synonyms for any word (in English) the user gives. 
-
-As an example, the user can say “Alexa, give me a synonym for <ins>eat</ins>”.
-
+This model will get the synonyms for any word (in English) the user gives. As an example, the user can say 
+<p align="center">
+“Alexa, give me a synonym for <ins>eat</ins>”.
+</p>
 An Alexa replies: 
 
 *Model Used:* The Word2Vec Skipgram model. Word2vec is a technique for learning word embeddings in natural language processing. It uses a neural network model to learn word associations from a large corpus of text. As the name implies, word2vec represents each distinct word with a vector such that we can learn the level of semantic similarity between the words represented by those vectors. 
