@@ -2,11 +2,13 @@
 
 In this Alexa Skill project, we design two models to perform the following tasks using Reddit data:
 1. Syn
-2. AlexaSummarise 
+2. AlexaSummarise
 
 The models are wrapped around an API on AWS and was deployed using FastAPI.
+
 ##Syn
-This model will get the synonyms for any word (in English) the user gives.
+This model will get the synonyms for any word (in English) the user gives. 
+
 As an example, the user can say “Alexa, give me a synonym for eat”.
 An Alexa replies: 
 *Model Used: The Word2Vec Skipgram model.*
@@ -18,8 +20,8 @@ AlexaSummarise is a project that summarizes posts from any subreddit for you.
 As an example, the user says: “Alexa, summarize the latest 1 post(s) in learningpython”
 You can specify the subreddit you want and how many posts you want summarized (the default is 1).
 If the number of posts to be summarized is more than one, Alexa will take turns summarizing each one and giving you the summary (this will definitely take some time).
-*NLP Category: Text Summarization*
 
+*NLP Category: Text Summarization*
 To achieve this, we used learned BERT sentence embeddings to build an extractive summarizer.
 
 #Project done by 
