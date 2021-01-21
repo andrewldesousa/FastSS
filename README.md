@@ -1,4 +1,4 @@
-# FastS<sup>2</sup>
+# FastS<sup>2</sup>:zap:
 
 In this Alexa Skill project, we design two models using Reddit data:
 1. Syn
