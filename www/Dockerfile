@@ -20,4 +20,4 @@ WORKDIR /api
 EXPOSE 8000
 
 ENTRYPOINT ["uvicorn"]
-CMD ["api.main:app", "--reload", "--host", "0.0.0.0"]
+CMD ["api.main:app", "--reload",  "--host", "0.0.0.0"]
