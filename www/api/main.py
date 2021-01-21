@@ -40,4 +40,4 @@ def synonyms(word: str):
 @app.get("/summarize")
 def summarize(subreddit: str, num_posts: int):
     summary, details = summarise(subreddit, num_posts=num_posts)
-    return {'summaries': summary}
+    return {'summaries': summary,'dates':details}
