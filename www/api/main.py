@@ -13,7 +13,7 @@ from .alexasummarise import summarise
 app = FastAPI()
 
 synonyms_results_dict = {}
-summary_result_output = None
+summary_result_output = []
 
 def run_synonym_model(word: str):
     file_name = 'temp_file.txt'
@@ -65,7 +65,7 @@ def summary_results():
 @app.get("/summarize")
 def summarize(subreddit: str, num_posts: int, background_tasks: BackgroundTasks):
     global summary_result_output
-    summary_result_output = None
+    summary_result_output = []
     background_tasks.add_task(run_summary_model, subreddit, num_posts=num_posts)
     return {'summaries': 'Running model'}
 
