@@ -1,4 +1,4 @@
-# reddit4nlp
+# FastS<sup>2</sup>
 
 In this Alexa Skill project, we design two models using Reddit data:
 1. Syn
@@ -28,7 +28,7 @@ The user can specify the subreddit you want and how many posts you want summariz
 
 **NLP Category: Text Summarization**
 
-To achieve this, we used learned BERT sentence embeddings to build an extractive summarizer. In extractive text summarization, we aim to use deep learning to identify the important sentences or excerpts from a large text.
+To achieve this, we used learned BERT sentence embeddings to build an extractive summarizer. In extractive text summarization, we aim to use deep learning to identify the important sentences or excerpts from a large text. Our extractive summarizer uses the HuggingFace Pytorch transformers library to run extractive summarizations. It does this by first embedding the sentences, then running a clustering algorithm, finding the sentences that are closest to the cluster's centroids. 
 
 # Project Contributors 
 * Chris Emezue (chris.emezue@tum.de | chris.emezue@gmail.com)
@@ -36,5 +36,3 @@ To achieve this, we used learned BERT sentence embeddings to build an extractive
 
 Project was executed as part of the Deep learning in NLP Seminar Project of TUM.
 
-# Deployment
-sudo scp -i "fast-synonym.pem" output_file.zip ubuntu@ec2-100-26-49-136.compute-1.amazonaws.com:~/reddit4nlp/www/api
