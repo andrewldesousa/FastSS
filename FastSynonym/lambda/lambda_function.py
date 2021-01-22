@@ -5,31 +5,40 @@
 # session persistence, api calls, and more.
 # This sample is built using the handler classes approach in skill builder.
 import logging
+import time
+import re
+import datetime
+from pytz import timezone
 import ask_sdk_core.utils as ask_utils
 
 from ask_sdk_core.skill_builder import SkillBuilder
 from ask_sdk_core.dispatch_components import AbstractRequestHandler
 from ask_sdk_core.dispatch_components import AbstractExceptionHandler
 from ask_sdk_core.handler_input import HandlerInput
-
 from ask_sdk_model import Response
+
+import requests
 
 logger = logging.getLogger(__name__)
 logger.setLevel(logging.INFO)
+
+
+
+SERVER_URL = 'http://ec2-54-172-41-153.compute-1.amazonaws.com:8000/'
+
 
 
 class LaunchRequestHandler(AbstractRequestHandler):
     """Handler for Skill Launch."""
     
     def can_handle(self, handler_input):
-        print('up')
         # type: (HandlerInput) -> bool
 
         return ask_utils.is_request_type("LaunchRequest")(handler_input)
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        speak_output = "Welcome, you can say Hello or Help. Which would you like to try?"
+        speak_output = "Welcome to Fast Squared, you can get a summary of posts from subreddits or get the synonyms for a word. Which would you like to try?"
 
         return (
             handler_input.response_builder
@@ -38,23 +47,92 @@ class LaunchRequestHandler(AbstractRequestHandler):
                 .response
         )
 
-
-class HelloWorldIntentHandler(AbstractRequestHandler):
-    """Handler for Hello World Intent."""
+class SummarizeIntentHandler(AbstractRequestHandler):
     def can_handle(self, handler_input):
         # type: (HandlerInput) -> bool
-        return ask_utils.is_intent_name("HelloWorldIntent")(handler_input)
+        return ask_utils.is_intent_name("SummarizeIntent")(handler_input)
 
     def handle(self, handler_input):
+        global SERVER_URL
         # type: (HandlerInput) -> Response
-        speak_output = "Hello World!"
-
+        slots= handler_input.request_envelope.request.intent.slots
+        num_posts = int(slots["num_posts"].value)
+        subreddit = slots["subreddit"].value
+        #subreddit = re.sub(r' ','',subreddit)
+        num_posts = num_posts if num_posts else 1
+        try:
+            headers = {
+                'accept': 'application/json',
+            }
+            
+            params = (
+                ('subreddit', subreddit),
+                ('num_posts', num_posts),
+            )
+            
+            
+            response = requests.get(SERVER_URL+'summarize', headers=headers, params=params)
+            speak_output = ''
+            summaries = list(response.json()['summaries'])
+            dates = list(response.json()['dates'])
+            try:
+                for i in range(len(summaries)):
+                    summary =summaries[i]
+                    date=dates[i]
+                    date = datetime.datetime.fromtimestamp(float(date))
+                    speak_output += 'Summary of post made on {} is as follows: {}.'.format(date.strftime("%m/%d/%Y, %H:%M:%S"),summary) +' '
+                   
+            except Exception as e:
+                speak_output = "There was an error processing your request."
+            
+        except Exception as e:
+            speak_output="Could not find posts for your subreddit. Please check your subreddit"
+            
+           
+        
         return (
             handler_input.response_builder
                 .speak(speak_output)
-                # .ask("add a reprompt if you want to keep the session open for the user to respond")
+                .ask("What would you like to do with Fast Squared?")
                 .response
         )
+
+class SynonymIntentHandler(AbstractRequestHandler):
+    
+    def can_handle(self, handler_input):
+        # type: (HandlerInput) -> bool
+        return ask_utils.is_intent_name("SynonymIntent")(handler_input)
+
+    def handle(self, handler_input):
+        global SERVER_URL
+        # type: (HandlerInput) -> Response
+        
+        slots=handler_input.request_envelope.request.intent.slots
+        word=slots["word"].value
+        
+        
+        headers = {
+            'accept': 'application/json',
+        }
+        
+        params = (
+            ('word', word),
+        )
+        
+        response = requests.get(SERVER_URL+'synonyms', headers=headers, params=params)
+        
+        speak_output = 'Some synonyms for {} are '.format(word)
+        for s in response.json()['synonyms']:
+            speak_output += s + ', '
+        
+        
+        return (
+            handler_input.response_builder
+                .speak(speak_output)
+                .ask("What would you like to do with Fast Squared?")
+                .response
+        )
+
 
 
 class HelpIntentHandler(AbstractRequestHandler):
@@ -160,7 +238,8 @@ class CatchAllExceptionHandler(AbstractExceptionHandler):
 sb = SkillBuilder()
 
 sb.add_request_handler(LaunchRequestHandler())
-sb.add_request_handler(HelloWorldIntentHandler())
+sb.add_request_handler(SummarizeIntentHandler())
+sb.add_request_handler(SynonymIntentHandler())
 sb.add_request_handler(HelpIntentHandler())
 sb.add_request_handler(CancelOrStopIntentHandler())
 sb.add_request_handler(SessionEndedRequestHandler())
