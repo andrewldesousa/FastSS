@@ -1,12 +1,12 @@
 # FastS<sup>2</sup>:zap:
 
 In this Alexa Skill project, we design two models using Reddit data:
-1. Syn
-2. AlexaSummarise
+1. FastSynonym
+2. FastSummarise
 
 The models are wrapped around an API on AWS and was deployed using [FastAPI](https://fastapi.tiangolo.com/).
 
-## Syn
+## FastSynonym
 This model will get the synonyms for any word (in English) the user gives. As an example, the user can say 
 <p align="center">
 “Alexa, what's another word for <ins>eat</ins> ?”.
@@ -16,10 +16,10 @@ This model will get the synonyms for any word (in English) the user gives. As an
 
 Word2vec is a technique for learning word embeddings in natural language processing. It uses a neural network model to learn word associations from a large corpus of text. As the name implies, word2vec represents each distinct word with a vector such that we can learn the level of semantic similarity between the words represented by those vectors. 
 
-## AlexaSummarise
-Sometimes, it can be tedious to read very long Reddit posts. We may want just a summary of the whole post.
+## FastSummarise
+It is very important to be informed of the latest things happening around our world in different areas of life (medicine, agriculture, science, etc). This is why Reddit is a suitable platform to get latest posts on. However, it can be tedious to read very long Reddit posts. We may want just a summary of the whole post.
 
-AlexaSummarise is a project that summarizes posts from any subreddit for you. As an example, the user says:
+FastSummarise is a project that summarises the latest posts from any subreddit for you. As an example, the user says:
 <p align="center">
   “Alexa, summarize the latest <ins>1</ins> post(s) in <ins>learningpython</ins>”
   </p>
