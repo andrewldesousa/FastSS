@@ -1,40 +1,186 @@
 {
-  "interactionModel": {
-    "languageModel": {
-      "invocationName": "fast synonym",
-      "intents": [
-        {
-          "name": "AMAZON.CancelIntent",
-          "samples": []
+    "interactionModel": {
+        "languageModel": {
+            "invocationName": "fast squared",
+            "intents": [
+                {
+                    "name": "AMAZON.CancelIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.HelpIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.StopIntent",
+                    "samples": []
+                },
+                {
+                    "name": "AMAZON.NavigateHomeIntent",
+                    "samples": []
+                },
+                {
+                    "name": "SummarizeIntent",
+                    "slots": [
+                        {
+                            "name": "num_posts",
+                            "type": "AMAZON.NUMBER",
+                            "samples": [
+                                "{num_posts} posts",
+                                "I want {num_posts} posts",
+                                "{num_posts}"
+                            ]
+                        },
+                        {
+                            "name": "subreddit",
+                            "type": "AMAZON.FirstName",
+                            "samples": [
+                                "{subreddit}",
+                                "I want summaries from {subreddit}",
+                                "I want {subreddit}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "give me the latest from {subreddit}",
+                        "latest {subreddit}",
+                        "what is the summary of {subreddit}",
+                        "summarize the latest {num_posts} from {subreddit}",
+                        "get the latest {num_posts} from {subreddit}",
+                        "Get {num_posts} summary from {subreddit}",
+                        "Get {num_posts} summaries from {subreddit}",
+                        "Summarize {num_posts} from {subreddit}"
+                    ]
+                },
+                {
+                    "name": "SynonymIntent",
+                    "slots": [
+                        {
+                            "name": "word",
+                            "type": "AMAZON.FirstName",
+                            "samples": [
+                                "synonyms for {word}",
+                                "my word is {word}",
+                                "{word}"
+                            ]
+                        }
+                    ],
+                    "samples": [
+                        "synonyms for {word}",
+                        "synonym for {word}",
+                        "another word for {word}",
+                        "get me synonym for {word}",
+                        "i want synonyms for {word}",
+                        "what is another word for {word}",
+                        "get me synonyms for {word}"
+                    ]
+                }
+            ],
+            "types": []
         },
-        {
-          "name": "AMAZON.HelpIntent",
-          "samples": []
+        "dialog": {
+            "intents": [
+                {
+                    "name": "SummarizeIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "num_posts",
+                            "type": "AMAZON.NUMBER",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.775741444277.572524674635"
+                            }
+                        },
+                        {
+                            "name": "subreddit",
+                            "type": "AMAZON.FirstName",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.187602735673.1134006513678"
+                            }
+                        }
+                    ]
+                },
+                {
+                    "name": "SynonymIntent",
+                    "confirmationRequired": false,
+                    "prompts": {},
+                    "slots": [
+                        {
+                            "name": "word",
+                            "type": "AMAZON.FirstName",
+                            "confirmationRequired": false,
+                            "elicitationRequired": true,
+                            "prompts": {
+                                "elicitation": "Elicit.Slot.1263746095084.215692577049"
+                            }
+                        }
+                    ]
+                }
+            ],
+            "delegationStrategy": "ALWAYS"
         },
-        {
-          "name": "AMAZON.StopIntent",
-          "samples": []
-        },
-        {
-          "name": "HelloWorldIntent",
-          "slots": [],
-          "samples": [
-            "hello",
-            "how are you",
-            "say hi world",
-            "say hi",
-            "hi",
-            "say hello world",
-            "say hello"
-          ]
-        },
-        {
-          "name": "AMAZON.NavigateHomeIntent",
-          "samples": []
-        }
-      ],
-      "types": []
+        "prompts": [
+            {
+                "id": "Elicit.Slot.775741444277.572524674635",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "How many posts would you like?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.1263746095084.215692577049",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Please repeat the word"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What word would you like synonyms for?"
+                    }
+                ]
+            },
+            {
+                "id": "Elicit.Slot.187602735673.1134006513678",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "Please repeat your subreddit"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Which subreddit are you interested in?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "What subreddit do you want"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Intent.1477609331919",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "What was the word please?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Please repeat the word"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "Please repeat the word you wish to get the synonyms for"
+                    }
+                ]
+            }
+        ]
     }
-  },
-  "version": "2"
 }
