@@ -21,7 +21,7 @@ It is very important to be informed of the latest things happening around our wo
 
 FastSummarise is a project that summarises the latest posts from any subreddit for you. As an example, the user says:
 <p align="center">
-  “Alexa, summarize the latest <ins>1</ins> post(s) in <ins>learningpython</ins>”
+  “Alexa, summarize the latest post in <ins>learningpython</ins>”
   </p>
 
 The user can specify the subreddit you want and how many posts you want summarized (the default is 1). If the number of posts to be summarized is more than one, Alexa will take turns summarizing each one and giving you the summary (this will definitely take some time).
