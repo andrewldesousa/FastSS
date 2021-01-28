@@ -24,7 +24,7 @@ logger.setLevel(logging.INFO)
 
 
 
-SERVER_URL = 'http://ec2-54-172-41-153.compute-1.amazonaws.com:8000/'
+SERVER_URL = "PUT YOUR SERVER LINK HERE"
 
 
 
@@ -38,12 +38,12 @@ class LaunchRequestHandler(AbstractRequestHandler):
 
     def handle(self, handler_input):
         # type: (HandlerInput) -> Response
-        speak_output = "Welcome to Fast Squared, you can get a summary of posts from subreddits or get the synonyms for a word. Which would you like to try?"
+        speak_output = "Welcome to Fast Squared, you can get a summary of latest posts from subreddits or get the synonyms for a word. Which would you like to try?"
 
         return (
             handler_input.response_builder
                 .speak(speak_output)
-                .ask(speak_output)
+                .ask("What would you like to do with Fast Squared?")
                 .response
         )
 
@@ -56,10 +56,12 @@ class SummarizeIntentHandler(AbstractRequestHandler):
         global SERVER_URL
         # type: (HandlerInput) -> Response
         slots= handler_input.request_envelope.request.intent.slots
-        num_posts = int(slots["num_posts"].value)
+        num_posts = int(slots["num_posts"].value) if slots["num_posts"].value else 1
         subreddit = slots["subreddit"].value
-        #subreddit = re.sub(r' ','',subreddit)
-        num_posts = num_posts if num_posts else 1
+        subreddit=subreddit.lower()
+        subreddit = re.sub(r' ','',subreddit)
+        #num_posts = num_posts if num_posts else 1
+        
         try:
             headers = {
                 'accept': 'application/json',
