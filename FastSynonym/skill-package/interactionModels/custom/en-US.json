@@ -24,12 +24,7 @@
                     "slots": [
                         {
                             "name": "num_posts",
-                            "type": "AMAZON.NUMBER",
-                            "samples": [
-                                "{num_posts} posts",
-                                "I want {num_posts} posts",
-                                "{num_posts}"
-                            ]
+                            "type": "AMAZON.NUMBER"
                         },
                         {
                             "name": "subreddit",
@@ -42,14 +37,21 @@
                         }
                     ],
                     "samples": [
+                        "summarize the latest {num_posts} posts from {subreddit}",
+                        "get the latest {num_posts} posts from {subreddit}",
+                        "summarize {num_posts} posts from {subreddit}",
+                        "latest {num_posts} posts from {subreddit}",
+                        "latest posts from {subreddit}",
+                        "latest post from {subreddit}",
+                        "summarize a post from {subreddit}",
+                        "summarize the latest post from {subreddit}",
                         "give me the latest from {subreddit}",
                         "latest {subreddit}",
                         "what is the summary of {subreddit}",
                         "summarize the latest {num_posts} from {subreddit}",
                         "get the latest {num_posts} from {subreddit}",
                         "Get {num_posts} summary from {subreddit}",
-                        "Get {num_posts} summaries from {subreddit}",
-                        "Summarize {num_posts} from {subreddit}"
+                        "Get {num_posts} summaries from {subreddit}"
                     ]
                 },
                 {
@@ -66,6 +68,8 @@
                         }
                     ],
                     "samples": [
+                        "give me synonym for {word}",
+                        "give me synonyms for {word}",
                         "synonyms for {word}",
                         "synonym for {word}",
                         "another word for {word}",
@@ -89,17 +93,16 @@
                             "name": "num_posts",
                             "type": "AMAZON.NUMBER",
                             "confirmationRequired": false,
-                            "elicitationRequired": true,
-                            "prompts": {
-                                "elicitation": "Elicit.Slot.775741444277.572524674635"
-                            }
+                            "elicitationRequired": false,
+                            "prompts": {}
                         },
                         {
                             "name": "subreddit",
                             "type": "AMAZON.FirstName",
-                            "confirmationRequired": false,
+                            "confirmationRequired": true,
                             "elicitationRequired": true,
                             "prompts": {
+                                "confirmation": "Confirm.Slot.1510845767495.432620062279",
                                 "elicitation": "Elicit.Slot.187602735673.1134006513678"
                             }
                         }
@@ -113,9 +116,10 @@
                         {
                             "name": "word",
                             "type": "AMAZON.FirstName",
-                            "confirmationRequired": false,
+                            "confirmationRequired": true,
                             "elicitationRequired": true,
                             "prompts": {
+                                "confirmation": "Confirm.Slot.1004014292117.174690535880",
                                 "elicitation": "Elicit.Slot.1263746095084.215692577049"
                             }
                         }
@@ -178,6 +182,44 @@
                     {
                         "type": "PlainText",
                         "value": "Please repeat the word you wish to get the synonyms for"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Slot.1510845767495.432620062279",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "You asked for the latest from {subreddit} , correct?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "I heard {subreddit} , is that correct?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "You want the latest from {subreddit} ?"
+                    }
+                ]
+            },
+            {
+                "id": "Confirm.Slot.1004014292117.174690535880",
+                "variations": [
+                    {
+                        "type": "PlainText",
+                        "value": "I heard {word} , is that correct?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "You want synonyms for {word} , correct?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "You want another word for {word} , correct?"
+                    },
+                    {
+                        "type": "PlainText",
+                        "value": "You asked for synonyms for {word} , correct?"
                     }
                 ]
             }
