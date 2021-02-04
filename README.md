@@ -32,7 +32,8 @@ To achieve this, we used learned BERT sentence embeddings to build an extractive
 
 **Some Photos**
 
-![Some examples](https://user-images.githubusercontent.com/36100251/106934106-c6692900-672a-11eb-8993-33fd08209d13.jpeg)
+![Example1](https://user-images.githubusercontent.com/36100251/106934345-12b46900-672b-11eb-9e49-a650976bf20e.jpeg)
+![Example2](https://user-images.githubusercontent.com/36100251/106934355-15af5980-672b-11eb-9c6b-33486cc2bb5d.jpeg)
 
 # Project Contributors 
 * Chris Emezue (chris.emezue@tum.de | chris.emezue@gmail.com)
