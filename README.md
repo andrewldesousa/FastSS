@@ -31,6 +31,7 @@ The user can specify the subreddit you want and how many posts you want summariz
 To achieve this, we used learned BERT sentence embeddings to build an extractive summarizer. In extractive text summarization, we aim to use deep learning to identify the important sentences or excerpts from a large text. Our extractive summarizer uses the HuggingFace Pytorch transformers library to run extractive summarizations. It does this by first embedding the sentences, then running a clustering algorithm, finding the sentences that are closest to the cluster's centroids. 
 
 **Some Photos**
+
 ![Some examples](https://user-images.githubusercontent.com/36100251/106933400-e77d4a00-6729-11eb-85f2-4a35f68b189e.jpeg)
 
 # Project Contributors 
