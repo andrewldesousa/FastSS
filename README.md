@@ -36,7 +36,7 @@ To achieve this, we used learned BERT sentence embeddings to build an extractive
 
 # Project Contributors 
 * Chris Emezue (chris.emezue@tum.de | chris.emezue@gmail.com)
-* Andrew Desousa ()
+* Andrew Desousa
 
 Project was executed as part of the Deep learning in NLP Seminar Project of TUM.
 
