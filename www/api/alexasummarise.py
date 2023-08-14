@@ -26,9 +26,7 @@ data_dir='./'
 def similar_posts(data1,data2):
   d1 = set(data1.split(" "))
   d2 = set(data2.split(" "))
-  #print(d1)
-  #print("---------------------------------------")
-  #print(d2)
+
   intsct = d2.intersection(d1)
   if len(intsct)/max(len(d2),len(d1)) >=0.5:
     return True
